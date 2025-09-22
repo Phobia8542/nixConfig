@@ -25,18 +25,13 @@
     };
 
   fileSystems."/mnt/gameStorage" =
-    { device = "/dev/disk/by-uuid/569fb10c-2629-47ed-998e-3f844aa99573";
+    { device = "/dev/disk/by-uuid/9c0adf57-59ec-4528-995f-75b9df36bed1";
       fsType = "ext4";
     };
 
-  # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
-  # (the default) this is the recommended approach. When using systemd-networkd it's
-  # still possible to use this option, but it's recommended to use it in conjunction
-  # with explicit per-interface declarations with `networking.interfaces.<interface>.useDHCP`.
-  networking.useDHCP = lib.mkDefault true;
-  # networking.interfaces.docker0.useDHCP = lib.mkDefault true;
-  # networking.interfaces.enp34s0.useDHCP = lib.mkDefault true;
-  # networking.interfaces.wlo1.useDHCP = lib.mkDefault true;
+  swapDevices =
+    [ { device = "/dev/disk/by-uuid/6d78391c-48bb-4160-8164-ffd03e798527"; }
+    ];
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
