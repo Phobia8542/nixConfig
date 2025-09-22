@@ -24,27 +24,27 @@
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
-  fileSystems."/mnt/bulkStorage" =
-    { device = "/dev/disk/by-uuid/83f44b58-f326-49da-92a5-30758d590bd3";
-      fsType = "ext4";
-    };
-
   fileSystems."/mnt/gamingDrive" =
     { device = "/dev/disk/by-uuid/1f88c0b6-0dff-4390-8a16-6c3d04bb333f";
       fsType = "ext4";
     };
 
-  swapDevices = [ ];
+  fileSystems."/mnt/bulkStorage" =
+    { device = "/dev/disk/by-uuid/83f44b58-f326-49da-92a5-30758d590bd3";
+      fsType = "ext4";
+    };
 
-  # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
-  # (the default) this is the recommended approach. When using systemd-networkd it's
-  # still possible to use this option, but it's recommended to use it in conjunction
-  # with explicit per-interface declarations with `networking.interfaces.<interface>.useDHCP`.
-  networking.useDHCP = lib.mkDefault true;
-  # networking.interfaces.br-91e354040f2d.useDHCP = lib.mkDefault true;
-  # networking.interfaces.docker0.useDHCP = lib.mkDefault true;
-  # networking.interfaces.eno1.useDHCP = lib.mkDefault true;
-  # networking.interfaces.wlp5s0.useDHCP = lib.mkDefault true;
+  fileSystems."/mnt/backBurner" =
+    { device = "/dev/disk/by-uuid/5f00153b-1543-471e-86e5-73ba4ebe7067";
+      fsType = "ext4";
+    };
+
+  fileSystems."/mnt/1TBsdd" =
+    { device = "/dev/disk/by-uuid/06e7cd38-9d4a-4e9c-89d6-25f0cfab5182";
+      fsType = "ext4";
+    };
+
+  swapDevices = [ ];
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
