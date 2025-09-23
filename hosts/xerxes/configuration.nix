@@ -4,9 +4,12 @@
   imports = [
     ./amd-config.nix
     ./hardware-configuration.nix
-    ./jellyfin.nix
     ./testPackages.nix
-    ../../nixos/modules
+    ../../nixos/core
+    ../../nixos/gaming
+    ../../nixos/pentest
+    ../../nixos/powerUser
+    ../../nixos/server
   ];
 
   environment.systemPackages = [ pkgs.home-manager ];

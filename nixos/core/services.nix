@@ -1,18 +1,26 @@
 {
   services = {
+    blueman.enable = true; # Enable bluetooth
     cron.enable = true; # Set jobs with "systemCronJobs [];"
-    desktopManager.plasma6.enable = true; # Enable plasma KDE
-    displayManager.sddm.enable = true; # Enable ssdm
     openssh.enable = true; # enable OpenSSH daemon
     printing.enable = true; # Enable CUPS to print documents
+    lact.enable = true; # Enable LACT (overclocking tool)
 
     # Xserver (X11) & video driver settings
+    desktopManager.plasma6.enable = true; # Enable plasma KDE
+    displayManager.sddm.enable = true; # Enable ssdm
     xserver = {
       enable = true; # Enable X11 windowing system
       xkb.variant = ""; # Set keymap variant
       xkb.layout = "us"; # Set keyboard layout
-      # videoDrivers = ["amdgpu"]; # Enables GPU Drivers
-      # videoDrivers = ["nvidia"]; # Enables GPU Drivers
+    };
+
+    # Audio settings (pipewire with alsa support)
+    pipewire = {
+      enable = true;
+      alsa.enable = true;
+      alsa.support32Bit = true;
+      pulse.enable = true;
     };
 
     # Scan system automatically
@@ -21,12 +29,4 @@
       interval = "Sun *-*-* 04:00:00";
     };
   };
-
-  hardware = {
-    graphics = {
-      enable = true; # replaces opengl
-      enable32Bit = true; # Enable 32Bit support
-    };
-  };
-
 }

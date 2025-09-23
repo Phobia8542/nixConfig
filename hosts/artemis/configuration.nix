@@ -5,7 +5,10 @@
     ./hardware-configuration.nix
     ./nvidia-config.nix
     ./testPackages.nix
-    ../../nixos/modules
+    ../../nixos/core
+    ../../nixos/gaming
+    ../../nixos/pentest
+    ../../nixos/powerUser
   ];
 
   environment.systemPackages = [ pkgs.home-manager ];

@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 {
   boot = {
     loader = {
@@ -6,7 +6,6 @@
         efiSupport = true;
         enable = false;
         device = "nodev";
-        # useOSProber = true;
       };
       efi = {
         canTouchEfiVariables = true;
@@ -14,7 +13,16 @@
       };
       systemd-boot.enable = true; # Enable systemd bootloader
     };
-    # initrd.kernelModules = [ "amdgpu" ]; # Load amd kernel drivers
-    # initrd.kernelModules = [ "nvidia" ]; # Load amd kernel drivers
+    kernelPackages = pkgs.linuxPackages_zen; # Load kernel 
+  };
+  hardware = {
+    bluetooth = {
+      enable = true;
+      powerOnBoot = true;
+    };
+    graphics = {
+      enable = true; # replaces opengl
+      enable32Bit = true; # Enable 32Bit support
+    };
   };
 }

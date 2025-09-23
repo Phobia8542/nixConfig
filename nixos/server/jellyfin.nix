@@ -7,8 +7,6 @@
     openFirewall = true;
     user = "phobes";
     # group = "jellyfin";
-    # bindAddress = "0.0.0.0:8086";
-    # forceHttps = true;
   };
 
   # Enable Caddy HTTPS Web Server with Let's Encrypt auto-TLS
