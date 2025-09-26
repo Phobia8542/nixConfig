@@ -4,15 +4,15 @@
     ./bat.nix
     ./btop.nix
     # ./chromium.nix
-    # ./eza.nix
+    ./eza.nix
     ./ghostty.nix
     ./git.nix
-    # ./hyprland
+    ./hyprland
     ./lazygit.nix
     ./neovim.nix
     ./nushell
     ./obs-studio.nix
-    # ./ranger.nix
+    ./ranger.nix
     ./shell.nix
     ./starship.nix
     ./stylix.nix
