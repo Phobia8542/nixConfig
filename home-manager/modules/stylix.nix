@@ -11,7 +11,7 @@
     font-awesome
     powerline-fonts
     powerline-symbols
-    (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
+    # (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
   ];
 
   stylix = {
@@ -20,7 +20,7 @@
     base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-medium.yaml";
 
     targets = {
-      neovim.enable = false;
+      neovim.enable = true;
       waybar.enable = false;
       wofi.enable = false;
       hyprland.enable = false;

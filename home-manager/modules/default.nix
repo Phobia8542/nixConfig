@@ -13,7 +13,7 @@
     ./nushell
     ./obs-studio.nix
     ./ranger.nix
-    ./shell.nix
+    # ./shell.nix
     ./starship.nix
     ./stylix.nix
     ./swaync

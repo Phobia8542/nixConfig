@@ -9,21 +9,21 @@
     obsidian # Power knowledge base that works on top of a local folder of plain text Markdown files
 
     # CLI utils
-    # btop
+    btop
     carapace # Multi-shell multi-command argument completer
-    ffmpeg
-    ffmpegthumbnailer
-    fzf
-    gh
-    ghostty
-    htop
-    hyprpicker
+    ffmpeg # Complete, cross-platform solution to record, convert and stream audio and video
+    ffmpegthumbnailer # Lightweight video thumbnailer
+    fzf # Command-line fuzzy finder written for fzf
+    gh # GitHub CLI tool
+    ghostty # Fast, Native, feature-rich terminal emulator pushing modern features
+    htop # Interactive process viewer
+    hyprpicker # Blazing fast wayland wallpaper utility
     kitty
     librewolf
-    # mediainfo
+    mediainfo
     nushell
-    # playerctl
-    # showmethekey
+    playerctl
+    showmethekey
     starship
     unzip
     wget
@@ -36,7 +36,7 @@
     python311
 
     # WM stuff
-    libsForQt5.xwaylandvideobridge
+    kdePackages.xwaylandvideobridge
     libnotify
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland

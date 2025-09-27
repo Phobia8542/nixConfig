@@ -12,7 +12,7 @@
       unfocused-split-opacity = 0.75;
 
       # Themes
-      theme = "catppuccin-mocha";
+      theme = "dracula";
     };
   };
 }

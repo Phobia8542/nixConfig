@@ -8,15 +8,15 @@
       enableZshIntegration = true;
     };
 
-    fzf = {
-     enable = true;
-     colors = {
-       bg = "#1e1e1e";
-       "bg+" = "#1e1e1e";
-       fg = "#d4d4d4";
-       "fg+" = "#d4d4d4";
-     };
-    };
+    # fzf = {
+     # enable = true;
+     # colors = {
+       # bg = "#1e1e1e";
+       # "bg+" = "#1e1e1e";
+       # fg = "#d4d4d4";
+       # "fg+" = "#d4d4d4";
+     # };
+    # };
 
     # Minimal, blazing fast, and extremely customizable prompt for any shell
     starship = {
