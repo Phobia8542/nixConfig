@@ -1,6 +1,6 @@
-# ❄️ NixOS Config Reborn
+# ❄️ NixOS Multi-host Config 
 
-This configuration is based on [this](https://github.com/Andrey0189/nixos-config-reborn/tree/master)
+This configuration is based on [Ampersand's config](https://github.com/Andrey0189/nixos-config-reborn/tree/master)
 
 ## ✨ Features
 
