@@ -18,28 +18,29 @@
     ghostty # Fast, Native, feature-rich terminal emulator pushing modern features
     htop # Interactive process viewer
     hyprpicker # Blazing fast wayland wallpaper utility
-    kitty
-    librewolf
-    mediainfo
-    nushell
-    playerctl
-    showmethekey
-    starship
-    unzip
-    wget
-    zip
-    zoxide
+    kitty # Fast, feature-rich, GPU based terminal emulator
+    librewolf # Fork of Firefox, focused on privacy, security and freedom
+    mediainfo # Supplies technical and tag information about a video or audio file
+    nushell # Modern shell written in Rust
+    playerctl # Command-line utility and library for controlling media players that implement
+    showmethekey # Show keys you typed on screen
+    starship # Minimal, blazing fast, and extremely customizable prompt for any shell
+    unzip # Extraction utility for archives compressed in .zip format
+    wget # Tool for retrieving files using HTTP, HTTPS, and FTP
+    zip # Compressor/archiver for creating and modifying zipfiles
+    zoxide # Fast cd command that learns your habits
 
     # Coding stuff
-    openjdk23
-    nodejs
-    python311
+    openjdk # Open-source Java Development Kit
+    nodejs # Event-driven I/O framework for the V8 Javascript engine
+    python # High-level dynamically-typed programming language 
+    # python311full # High-level dynamically-typed programming language 
 
     # WM stuff
-    kdePackages.xwaylandvideobridge
-    libnotify
-    xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland
+    kdePackages.xwaylandvideobridge # Utility to allow streaming Wayland windows to x applications
+    libnotify # Library that sends desktop notifications to a notification daemon
+    xdg-desktop-portal-gtk # Desktop integration portals for sandboxed apps
+    xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland
 
   ];
 }
