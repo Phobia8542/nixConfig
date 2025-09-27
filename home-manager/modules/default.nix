@@ -2,7 +2,7 @@
   imports = [
     ./alacritty.nix
     ./bat.nix
-    ./btop.nix
+    # ./btop.nix
     # ./chromium.nix
     ./eza.nix
     ./ghostty.nix

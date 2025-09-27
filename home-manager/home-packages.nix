@@ -5,12 +5,12 @@
     # Packages in each category are sorted alphabetically
 
     # Desktop apps
-    obs-studio
-    obsidian
+    obs-studio # Free and open source software for video recording and live streaming
+    obsidian # Power knowledge base that works on top of a local folder of plain text Markdown files
 
     # CLI utils
-    btop
-    carapace
+    # btop
+    carapace # Multi-shell multi-command argument completer
     ffmpeg
     ffmpegthumbnailer
     fzf

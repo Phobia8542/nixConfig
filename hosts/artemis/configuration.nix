@@ -4,7 +4,7 @@
   imports = [
     ./hardware-configuration.nix
     ./nvidia-config.nix
-    ./testPackages.nix
+    ./local.nix
     ../../nixos/core
     ../../nixos/gaming
     ../../nixos/pentest

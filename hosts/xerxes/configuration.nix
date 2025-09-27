@@ -4,7 +4,7 @@
   imports = [
     ./amd-config.nix
     ./hardware-configuration.nix
-    ./testPackages.nix
+    ./local.nix
     ../../nixos/core
     ../../nixos/gaming
     ../../nixos/pentest

@@ -11,30 +11,38 @@
     };
 
     # Hyprland, the modern compositor for wayland
-    # hyprland = {
-      # url = "github:hyprwm/Hyprland";
-      # inputs.nixpkgs.follows = "nixpkgs";
-    # };
+    hyprland = {
+      url = "github:hyprwm/Hyprland";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Hyprland plugins
-    # hyprland-plugins = {
-      # url = "github:hyprwm/hyprland-plugins";
-      # inputs.hyprland.follows = "hyprland";
-    # };
+    hyprland-plugins = {
+      url = "github:hyprwm/hyprland-plugins";
+      inputs.hyprland.follows = "hyprland";
+    };
 
+    # Hyprspacem workspace overview plugin
+    hyprspace.url = "github:KZDKM/Hyprspace";
+    hyprspace.inputs.hyprland.follows = "hyprland";
+
+    # Hyprpaper, wallpaper manager for hyprland
+    hyprpaper.url = "github:hyprwm/hyprpaper";
+
+    # waybar, a customizable wayland bar
+    waybar.url = "github:Alexays/Waybar";
+    waybar.inputs.nixpkgs.follows = "nixpkgs";
+
+    # ghostty, Cross-platform terminal emulator
+    ghostty.url = "github:/ghostty-org/ghostty";
+ 
     stylix = {
       url = "github:danth/stylix/release-24.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    # waybar, a customizable wayland bar
-    waybar = {
-      url = "github:Alexays/Waybar";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: let
+  outputs = { self, nixpkgs, home-manager, hyprland, hyprland-plugins, hyprspace, hyprpaper, waybar, stylix, ghostty, ... }@inputs: let
     system = "x86_64-linux";
     homeStateVersion = "24.11";
     user = "phobes";
