@@ -13,7 +13,10 @@
         "XDG_SCREENSHOTS_DIR,$HOME/screens"
       ];
 
-      monitor = ",preferred,auto,1";
+      monitor = ",preferred,auto-left,1";
+      # monitor = "DP-1, 1920x1080@240, auto-right, 1";
+      # monitor = "DP-2, 2560x1440@165, auto-left, 1";
+      # monitor = "HDMI-A-1, disable";
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";
       "$fileManager" = "$terminal -e sh -c 'ranger'";
@@ -47,20 +50,20 @@
         inactive_opacity = 1.0;
 
         shadow = {
-          enabled = false;
+          enabled = true;
         };
 
         blur = {
-          enabled = false;
+          enabled = true;
         };
       };
 
       animations = {
-        enabled = false;
+        enabled = true;
       };
 
       input = {
-        kb_layout = "us,ru,il";
+        kb_layout = "us";
         kb_options = "grp:caps_toggle";
       };
 

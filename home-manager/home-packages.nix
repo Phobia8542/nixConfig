@@ -5,6 +5,7 @@
     # Packages in each category are sorted alphabetically
 
     # Desktop apps
+    librewolf # Fork of Firefox, focused on privacy, security and freedom
     # obs-studio # Free and open source software for video recording and live streaming
     obsidian # Power knowledge base that works on top of a local folder of plain text Markdown files
 
@@ -19,7 +20,6 @@
     htop # Interactive process viewer
     hyprpicker # Blazing fast wayland wallpaper utility
     kitty # Fast, feature-rich, GPU based terminal emulator
-    librewolf # Fork of Firefox, focused on privacy, security and freedom
     nushell # Modern shell written in Rust
     starship # Minimal, blazing fast, and extremely customizable prompt for any shell
     unzip # Extraction utility for archives compressed in .zip format
@@ -43,12 +43,17 @@
     mediainfo # Supplies technical and tag information about a video or audio file
     playerctl # Command-line utility and library for controlling media players that implement
     showmethekey # Show keys you typed on screen
-    # python # High-level dynamically-typed programming language 
-    # python311 # High-level dynamically-typed programming language 
-    # libtommath # Library for integer-based number-theoretic applications
-    # tcl
-    # tk
-    # swaync
+    brightnessctl # This program allows you to read and control device brightness
+    light # GNU/Linux application to control backlights
+    mako # Lightweight Wayland notification daemon
+    feh # Lightweight image viewer
+    dmenu # Generic, highly customizable, and efficient menu for the X Window
+    screenkey # Screencast tool to display your keys inspired by Screenflick
+    gromit-mpx # Desktop annotation tool
+    wl-clipboard # Command-line copy/paste utilities for Wayland
+    cliphist # Wayland clipboard manager
+    herbstluftwm # Manual tiling window manger for X
+
 
   ];
 }

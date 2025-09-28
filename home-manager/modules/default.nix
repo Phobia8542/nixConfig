@@ -1,7 +1,7 @@
 {
   imports = [
     ./alacritty.nix
-    # ./bat.nix
+    ./bat.nix
     # ./btop.nix
     # ./chromium.nix
     # ./eza.nix
@@ -9,11 +9,11 @@
     ./git.nix
     ./hyprland
     # ./lazygit.nix
-    # ./neovim.nix
+    ./neovim.nix
     ./nushell
     ./obs-studio.nix
     ./qt.nix
-    # ./ranger.nix
+    ./ranger.nix
     # ./shell.nix
     ./starship.nix
     ./stylix.nix
@@ -22,7 +22,7 @@
     ./waybar
     ./wofi
     # ./zathura.nix
-    # ./zed.nix
-    # ./zsh.nix
+    ./zed.nix
+    ./zsh.nix
   ];
 }
