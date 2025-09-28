@@ -5,7 +5,7 @@
     # Packages in each category are sorted alphabetically
 
     # Desktop apps
-    obs-studio # Free and open source software for video recording and live streaming
+    # obs-studio # Free and open source software for video recording and live streaming
     obsidian # Power knowledge base that works on top of a local folder of plain text Markdown files
 
     # CLI utils
@@ -44,10 +44,11 @@
     playerctl # Command-line utility and library for controlling media players that implement
     showmethekey # Show keys you typed on screen
     # python # High-level dynamically-typed programming language 
-    python311 # High-level dynamically-typed programming language 
-    libtommath # Library for integer-based number-theoretic applications
-    tcl
-    tk
+    # python311 # High-level dynamically-typed programming language 
+    # libtommath # Library for integer-based number-theoretic applications
+    # tcl
+    # tk
+    # swaync
 
   ];
 }

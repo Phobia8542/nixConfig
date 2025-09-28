@@ -15,8 +15,10 @@
   cliphist # Wayland clipboard manager
   herbstluftwm # Manual tiling window manger for X
   # seatd # Minimal seat management daemon, and universal seat management library
-  showmethekey # Show keys you typed on screen
+  # showmethekey # Show keys you typed on screen
   btop-rocm # Monitor of resources
+  # gcc # GNU Compiler Collection (wrapper script)
+  # tcl # Tcl scripting language
 
   ];
 }
