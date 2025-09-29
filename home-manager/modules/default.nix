@@ -3,27 +3,26 @@
     ./alacritty.nix
     ./bat.nix
     ./git.nix
+    ./ghostty.nix
     ./hyprland
     ./neovim.nix
     ./nushell
     ./obs-studio.nix
     ./qt.nix
     ./ranger.nix
+    ./shell.nix
     ./starship.nix
     ./stylix.nix
     ./swaync
     ./tmux.nix
     ./waybar
     ./wofi
+    ./zathura.nix
     ./zsh.nix
 
     # ./btop.nix
-    # ./chromium.nix
     # ./eza.nix
-    # ./ghostty.nix
     # ./lazygit.nix
-    # ./shell.nix
-    # ./zathura.nix
     # ./zed.nix
   ];
 }

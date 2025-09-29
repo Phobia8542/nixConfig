@@ -1,30 +1,13 @@
 { pkgs, ... }:
-let
-  booksDir = "$HOME/Downloads/books";
-  booksScript = pkgs.writeScriptBin "open_books" ''
-    #!/bin/sh
-
-    BOOKS_DIR="${booksDir}"
-
-    BOOK=$(find "$BOOKS_DIR" -type f \( -iname "*.pdf" -o -iname "*.epub" -o -iname "*.djvu" \) | wofi --dmenu --prompt "Select a book" --width 1200 --height 400)
-
-    if [[ -n "$BOOK" ]]; then
-        zathura "$BOOK" &
-    else
-        echo "No book selected."
-    fi
-  '';
-in {
-  home.packages = [ booksScript ];
-
+{
   wayland.windowManager.hyprland.settings = {
     bind = [
-      "$mainMod SHIFT, Return, exec, $terminal"
-      "$mainMod SHIFT, C, killactive,"
+      "$mainMod, Return, exec, $terminal"
+      "$mainMod, C, killactive,"
       "$mainMod SHIFT, Q, exit,"
       "$mainMod,       R, exec, $fileManager"
       "$mainMod,       F, togglefloating,"
-      "$mainMod,       D, exec, $menu --show drun"
+      "$mainMod,       SPACE, exec, $menu --show drun"
       "$mainMod,       P, pin,"
       "$mainMod,       J, togglesplit,"
       "$mainMod,       E, exec, bemoji -cn"
@@ -35,7 +18,6 @@ in {
       "$mainMod,       P, exec, hyprpicker -an"
       "$mainMod,       N, exec, swaync-client -t"
       ", Print, exec, grimblast --notify --freeze copysave area"
-      "$mainMod,       W, exec, ${booksScript}/bin/open_books"
 
       # Moving focus
       "$mainMod, left, movefocus, l"

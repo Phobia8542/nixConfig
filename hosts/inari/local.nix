@@ -9,6 +9,7 @@
   # lshw-gui # Provide detailed information on the hardware configuration of the machine
   # wireguard-tools # Tools for Wireguard secure network tunnel
   # wireguard-ui # Web user interface to manage your WireGuard setup
+  btop-cuda # Monitor of resources
 
   ];
 }

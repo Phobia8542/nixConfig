@@ -18,18 +18,6 @@
      # };
     # };
 
-    # Minimal, blazing fast, and extremely customizable prompt for any shell
-    starship = {
-      enable = true;
-      settings = {
-        add_newline = true;
-        character = {
-          success_symbol = "[➜](bold green)";
-          error_symbol = "[➜](bold red)";
-        };
-      };
-    };
-
     # Fast cd command that learns your habits
     zoxide = {
       enable = true;

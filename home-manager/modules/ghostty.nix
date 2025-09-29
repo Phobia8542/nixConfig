@@ -11,8 +11,6 @@
       # Focus settings
       unfocused-split-opacity = 0.75;
 
-      # Themes
-      theme = "dracula";
     };
   };
 }
