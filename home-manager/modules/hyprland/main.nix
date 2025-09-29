@@ -14,8 +14,13 @@
       ];
 
       monitor = [
-        "desc:Samsung Electric Company SAMSUNG 0x00000001, preferred, auto-left, 1" # TV on the left
-        "desc:Acer Technologies SA271 0x2167AD74, preferred, auto-right, 1" # Monitor on desk
+        "desc:Samsung Electric Company SAMSUNG 0x00000001, preferred, auto-left, 1" # TV
+        "desc:Acer Technologies SA271 0x2167AD74, preferred, auto-right, 1" # Regular monitor
+        "desc:LG Electronics LG ULTRAGEAR 0x000593BD, 1920x1080@240, auto-right, 1" # Gaming monitor 
+        "desc:Samsung Electric Company LS32AG55x H1AK500000, 2560x1440@90, auto-left, 1, transform, 3" # Auxillary monitor (Vertical setup)
+        # "desc:Samsung Electric Company LS32AG55x H1AK500000, 2560x1440@165, auto-left, 1" # Gaming monitor (default)
+        "desc:LG Electronics webOS TV 0x01010101, preferred, auto, 1, mirror, DP-1" # TV
+        # "desc:LG Electronics webOS TV 0x01010101, disable" # TV (off)
         # ",preferred, auto,1" # default
       ];
       "$mainMod" = "SUPER";
