@@ -13,10 +13,11 @@
         "XDG_SCREENSHOTS_DIR,$HOME/screens"
       ];
 
-      monitor = ",preferred,auto-left,1";
-      # monitor = "DP-1, 1920x1080@240, auto-right, 1";
-      # monitor = "DP-2, 2560x1440@165, auto-left, 1";
-      # monitor = "HDMI-A-1, disable";
+      monitor = [
+        "desc:Samsung Electric Company SAMSUNG 0x00000001, preferred, auto-left, 1" # TV on the left
+        "desc:Acer Technologies SA271 0x2167AD74, preferred, auto-right, 1" # Monitor on desk
+        # ",preferred, auto,1" # default
+      ];
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";
       "$fileManager" = "$terminal -e sh -c 'ranger'";
