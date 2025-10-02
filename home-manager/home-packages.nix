@@ -45,6 +45,8 @@
     gromit-mpx # Desktop annotation tool
     herbstluftwm # Manual tiling window manger for X
     # rofi # Window switcher, run dialog and dmenu replacement
+    light # GNU/Linux application to control backlights
+    brightnessctl # This program allows you to read and control device brightness
 
   ];
 }

@@ -4,12 +4,12 @@
 
     bitwarden-desktop # Secure and free password manager for all of your devices
     brave # Privacy-oriented browser for Desktop and Laptop computers
-    brightnessctl # This program allows you to read and control device brightness
+    # brightnessctl # This program allows you to read and control device brightness
     discord # All-in-one cross-platform voice and text chat for gamers
     firefox # Web browser
     kdePackages.kcalc # Scientific calculator
     librewolf # Fork of Firefox, focused on privacy, security and freedom
-    light # GNU/Linux application to control backlights
+    # light # GNU/Linux application to control backlights
     mediainfo # Supplies technical and tag information about a video or audio file
     obsidian # Powerful knowledge base that works on top of a local folder of plain text Markdown files
     pavucontrol # PulseAudio Volume Control
