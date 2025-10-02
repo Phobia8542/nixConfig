@@ -16,18 +16,19 @@
           on-resume = "brightnessctl -r";
         }
         {
-          timeout = 300;
+          timeout = 1200;
           on-timeout = "loginctl lock-session";
         }
         {
-          timeout = 600;
+          timeout = 1600;
           on-timeout = "hyprctl dispatch dpms off";
           on-resume = "hyprctl dispatch dpms on";
         }
-        {
-          timeout = 1200;
-          on-timeout = "sysemctl suspend";
-        }
+        # Suspend session (sleep)
+        # {
+          # timeout = 1200;
+          # on-timeout = "sysemctl suspend";
+        # }
       ];
     };
   };

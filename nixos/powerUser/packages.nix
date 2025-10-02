@@ -26,8 +26,6 @@
     neofetch # Fast, highly customizable system info script
     nil
     nixd # Nix language server, based on nix libraries
-    nix-search # Nix-channel-compatible package search
-    nix-search-cli # CLI for searching packages on search.nixos.org
     networkmanager-openvpn # NetworkManager's OpenVPN plugin
     nvidia-container-toolkit # NVIDIA Container Toolkit
     nvtopPackages.full # (h)top like task monitor for AMD, Adreno, Intel and NVIDIA GPUs

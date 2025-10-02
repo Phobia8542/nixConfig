@@ -52,7 +52,7 @@
     nGc = "sudo nix-store --gc"; # Garbage collection
     nLg = "nixos-rebuild list-generations"; #
     nFu = "nix flake update"; # Update flake (package manager update)
-    nS = "nix-search"; # Search for nix packages
+    nS = "nh search"; # Search for nix packages
     tSf = "sudo nixos-rebuild test --flake"; # Test Build using current flake
     tH = "home-manager build --flake . --show-trace"; # Test Home-manager configuration
     uH = "home-manager switch --flake . --show-trace"; # Update Home-manager
