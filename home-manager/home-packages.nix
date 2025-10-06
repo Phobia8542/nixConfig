@@ -7,7 +7,10 @@
     # Desktop apps
 
     # CLI utils
+    bat # Cat clone with syntax highlighting and Git integration
     carapace # Multi-shell multi-command argument completer
+    cava # Console-based Audio Visualizer for alsa
+    # cavalier # Visualize audio with CAVA
     ffmpeg # Complete, cross-platform solution to record, convert and stream audio and video
     ffmpegthumbnailer # Lightweight video thumbnailer
     fzf # Command-line fuzzy finder written for fzf
@@ -30,12 +33,9 @@
     # WM stuff
     cliphist # Wayland clipboard manager
     dmenu # Generic, highly customizable, and efficient menu for the X Window
-    kdePackages.xwaylandvideobridge # Utility to allow streaming Wayland windows to x applications
     libnotify # Library that sends desktop notifications to a notification daemon
     mako # Lightweight Wayland notification daemon
     wl-clipboard # Command-line copy/paste utilities for Wayland
-    xdg-desktop-portal-gtk # Desktop integration portals for sandboxed apps
-    xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland
     
     # Test packages
     # neovim # Vim text editor fork focused on extensibility and agility 
@@ -45,8 +45,8 @@
     gromit-mpx # Desktop annotation tool
     herbstluftwm # Manual tiling window manger for X
     # rofi # Window switcher, run dialog and dmenu replacement
-    light # GNU/Linux application to control backlights
-    brightnessctl # This program allows you to read and control device brightness
+    # light # GNU/Linux application to control backlights
+    # brightnessctl # This program allows you to read and control device brightness
 
   ];
 }

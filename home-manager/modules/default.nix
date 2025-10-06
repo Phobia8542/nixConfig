@@ -1,7 +1,6 @@
 {
   imports = [
     ./alacritty.nix
-    ./bat.nix
     ./git.nix
     ./ghostty.nix
     ./hyprland
@@ -19,6 +18,7 @@
     ./wofi
     ./zsh.nix
 
+    # ./bat.nix
     # ./btop.nix
     # ./eza.nix
     # ./lazygit.nix

@@ -20,6 +20,7 @@
     base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-medium.yaml";
 
     targets = {
+      cava.enable = true;
       ghostty.enable = true;
       hyprland.enable = false;
       hyprlock.enable = false;

@@ -4,7 +4,7 @@
 
     audacity # Sound editor with graphical UI
     bat # Cat(1) clone with syntax highlighting and Git integration
-    cava # Console-based Audio Visualizer for alsa
+    # cava # Console-based Audio Visualizer for alsa
     # cavalier # Visualize audio with CAVA
     cbonsai # Grow bonsai trees in your terminal
     cmatrix # Simulates the falling characters from The Matrix movie

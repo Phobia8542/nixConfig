@@ -9,6 +9,7 @@
   # xorg.xgamma # Required by brightctl
   bc # GNU software calculator (Required by brightctl)
   # wl-gammactl # Contrast, brightness, and gamma adjustments for Wayland
+  # swww # Effecient animated wallpaper daemon for wayland, controlled at runtime
 
   ];
 }
