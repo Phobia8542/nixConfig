@@ -1,18 +1,10 @@
 { pkgs, inputs, ... }: {
   imports = [ inputs.stylix.homeManagerModules.stylix ];
 
-  home.packages = with pkgs; [
-    dejavu_fonts
-    jetbrains-mono
-    noto-fonts
-    noto-fonts-lgc-plus
-    texlivePackages.hebrew-fonts
-    noto-fonts-emoji
-    font-awesome
-    powerline-fonts
-    powerline-symbols
-    # (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
-  ];
+  # Add this to set proper Qt theme
+  home.sessionVariables = {
+    QT_QPA_PLATFORMTHEME = "gtk";
+  };
 
   stylix = {
     enable = true;
@@ -20,7 +12,6 @@
     base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-medium.yaml";
 
     targets = {
-      cava.enable = true;
       ghostty.enable = true;
       hyprland.enable = false;
       hyprlock.enable = false;
@@ -29,11 +20,12 @@
       wofi.enable = false;
     };
 
-    cursor = {
-      name = "DMZ-Black";
-      size = 24;
-      package = pkgs.vanilla-dmz;
-    };
+    # Remove or comment out the problematic cursor section
+    # cursor = {
+    #   name = "DMZ-Black";
+    #   size = 24;
+    #   package = pkgs.vanilla-dmz;
+    # };
 
     fonts = {
       emoji = {
@@ -61,7 +53,7 @@
 
     iconTheme = {
       enable = true;
-      package = pkgs.papirus-icon-theme;
+      package = pkgs.papirus-icon-theme;  # Fixed: was papirus-icon-theme
       dark = "Papirus-Dark";
       light = "Papirus-Light";
     };

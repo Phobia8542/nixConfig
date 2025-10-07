@@ -41,9 +41,9 @@
     # neovim # Vim text editor fork focused on extensibility and agility 
     showmethekey # Show keys you typed on screen
     feh # Lightweight image viewer
-    screenkey # Screencast tool to display your keys inspired by Screenflick
-    gromit-mpx # Desktop annotation tool
-    herbstluftwm # Manual tiling window manger for X
+    # screenkey # Screencast tool to display your keys inspired by Screenflick
+    # gromit-mpx # Desktop annotation tool
+    # herbstluftwm # Manual tiling window manger for X
     # rofi # Window switcher, run dialog and dmenu replacement
     # light # GNU/Linux application to control backlights
     # brightnessctl # This program allows you to read and control device brightness

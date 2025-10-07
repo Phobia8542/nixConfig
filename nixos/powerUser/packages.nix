@@ -34,7 +34,7 @@
     tealdeer # Very fast implementation of tldr in Rust
     toipe # Yet another typing test, but crab flavoured
     unzip # Extraction utility for archives compressed in .zip format
-    virtualbox # PC emulator
+    # virtualbox # PC emulator
     vscodium # Open source sode editor developed by Microsoft
     wget # Tool for retrieving files using HTTP, HTTPS, and FTP
     whatsapp-for-linux # Whatsapp desktop messaging app

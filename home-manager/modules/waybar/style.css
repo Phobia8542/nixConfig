@@ -5,23 +5,23 @@
   font-weight: bold;
   font-size: 16px;
   min-height: 0;
-  color: #ebdbb2;
+  color: #f8f8f2;
 }
 
 window#waybar {
-  background: #1d2021;
+  background: #282a36;
 }
 
 /* Workspace Buttons */
 #workspaces button label{
-  color: #ebdbb2;
+  color: #f8f8f2;
   padding: 0 10px;
 }
 #workspaces button.active label {
-  color: #1d2021;
+  color: #282a36;
 }
 #workspaces button.active {
-  background: #d65d0e;
+  background: #ff79c6;
 }
 
 #clock, #battery, #pulseaudio, #tray, #language, #weather {
@@ -31,42 +31,42 @@ window#waybar {
 
 #language {
   margin: 0;
-  color: #d79921;
-  border-bottom: 5px solid #d79921;
+  color: #f8f8f2;
+  border-bottom: 5px solid #ff79c6;
 }
 
 #custom-weather {
   margin: 0;
-  color: #98971a;
-  border-bottom: 5px solid #98971a
+  color: #f8f8f2;
+  border-bottom: 5px solid #8be9fd;
 }
 
 #pulseaudio {
   margin: 0;
-  color: #689d6a;
-  border-bottom: 5px solid #689d6a;
+  color: #f8f8f2;
+  border-bottom: 5px solid #8be9fd;
 }
 
 #pulseaudio.muted {
   padding: 0 20px;
-  color: #cc241d;
-  border-bottom: 5px solid #cc241d;
+  color: #ff5555;
+  border-bottom: 5px solid #ff5555;
 }
 
 #battery {
   margin: 0;
-  color: #458588;
-  border-bottom: 5px solid #458588;
+  color: #f8f8f2;
+  border-bottom: 5px solid #8be9fd;
 }
 
 #clock {
   margin: 0;
-  color: #b16286;
-  border-bottom: 5px solid #b16286;
+  color: #f8f8f2;
+  border-bottom: 5px solid #ff79c6;
 }
 
 #tray {
   margin: 0;
-  color: #d65d0e;
-  border-bottom: 5px solid #d65d0e;
+  color: #f8f8f2;
+  border-bottom: 5px solid #ff79c6;
 }
