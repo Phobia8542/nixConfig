@@ -27,6 +27,7 @@
       "$terminal" = "ghostty";
       "$fileManager" = "$terminal -e sh -c 'ranger'";
       "$menu" = "wofi";
+      "$browser" = "librewolf";
 
       exec-once = [
         "waybar"
@@ -72,12 +73,6 @@
         kb_layout = "us";
         kb_options = "grp:caps_toggle";
       };
-
-      # gestures = {
-        # workspace_swipe = true;
-        # workspace_swipe_invert = false;
-        # workspace_swipe_forever	= true;
-      # };
 
       dwindle = {
         pseudotile = true;

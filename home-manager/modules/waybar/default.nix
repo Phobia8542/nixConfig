@@ -6,7 +6,7 @@
       mainBar = {
         layer = "top";
         position = "top";
-        height = 30;
+        height = 35;
         modules-left = ["hyprland/workspaces"];
         modules-center = ["hyprland/window"];
         modules-right = ["hyprland/language" "custom/weather" "pulseaudio" "battery" "clock" "tray"];
@@ -15,18 +15,18 @@
           show-special = true;
           special-visible-only = true;
           all-outputs = false;
-          format = "{icon}";
+          format = "{name}";
           format-icons = {
-            "1" = "";
-            "2" = "";
-            "3" = "";
-            "4" = "";
-            "5" = "";
-            "6" = "";
-            "7" = "";
-            "8" = "";
-            "9" = "";
-            "magic" = "";
+            "1" = "1";
+            "2" = "2";
+            "3" = "3";
+            "4" = "4";
+            "5" = "5";
+            "6" = "6";
+            "7" = "7";
+            "8" = "8";
+            "9" = "9";
+            "magic" = "M";
           };
 
           persistent-workspaces = {
@@ -50,15 +50,15 @@
         "pulseaudio" = {
           format = "{icon} {volume}%";
           format-bluetooth = "{icon} {volume}% ";
-          format-muted = "";
+          format-muted = "🔇";
           format-icons = {
-            "headphones" = "";
-            "handsfree" = "";
-            "headset" = "";
-            "phone" = "";
-            "portable" = "";
-            "car" = "";
-            "default" = ["" ""];
+            "headphones" = "🎧";
+            "handsfree" = "🔊";
+            "headset" = "🔊";
+            "phone" = "📱";
+            "portable" = "📱";
+            "car" = "🚗";
+            "default" = ["🔈" "🔊"];
           };
           on-click = "pavucontrol";
         };
@@ -69,9 +69,9 @@
             critical = 1;
           };
           format = "{icon} {capacity}%";
-          format-charging = " {capacity}%";
+          format-charging = "⚡ {capacity}%";
           format-alt = "{time} {icon}";
-          format-icons = ["" "" "" "" ""];
+          format-icons = ["🔋" "🔋" "🔋" "🔋" "🔋"];
         };
 
         "clock" = {
@@ -80,8 +80,8 @@
         };
 
         "tray" = {
-          icon-size = 14;
-          spacing = 1;
+          icon-size = 16;
+          spacing = 2;
         };
       };
     };

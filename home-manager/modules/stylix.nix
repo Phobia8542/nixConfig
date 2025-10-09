@@ -1,5 +1,5 @@
 { pkgs, inputs, ... }: {
-  imports = [ inputs.stylix.homeManagerModules.stylix ];
+  imports = [ inputs.stylix.homeModules.stylix ];
 
   # Add this to set proper Qt theme
   home.sessionVariables = {

@@ -7,7 +7,6 @@
     ./neovim.nix
     ./nushell
     ./obs-studio.nix
-    ./qt.nix
     ./ranger.nix
     ./shell.nix
     ./starship.nix
@@ -22,6 +21,7 @@
     # ./btop.nix
     # ./eza.nix
     # ./lazygit.nix
+    # ./qt.nix
     # ./zathura.nix
     # ./zed.nix
   ];
