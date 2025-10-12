@@ -9,12 +9,11 @@
         height = 35;
         modules-left = ["hyprland/workspaces"];
         modules-center = ["hyprland/window"];
-        modules-right = ["hyprland/language" "custom/weather" "pulseaudio" "battery" "clock" "tray"];
+        modules-right = ["cpu" "memory" "pulseaudio" "battery" "clock" "tray"];
         "hyprland/workspaces" = {
-          disable-scroll = true;
+          disable-scroll = false;
           show-special = true;
           special-visible-only = true;
-          all-outputs = false;
           format = "{name}";
           format-icons = {
             "1" = "1";
@@ -29,27 +28,26 @@
             "magic" = "M";
           };
 
-          persistent-workspaces = {
-            "*" = 9;
-          };
+          # persistent-workspaces = {
+            # "*" = 9;
+          # };
         };
 
-        "hyprland/language" = {
-          format-en = "🇺🇸";
-          min-length = 5;
-          tooltip = false;
+        "cpu" = {
+         interval = 10;
+         format = "CPU: {icon} {usage}%"; 
+         format-alt = "LOAD: {load}% AVG: {avg_frequency}%"; 
         };
-
-        "custom/weather" = {
-          format = " {} ";
-          exec = "curl -s 'wttr.in/Tashkent?format=%c%t'";
-          interval = 300;
-          class = "weather";
+        
+        "memory" = {
+         interval = 10;
+         format = "RAM: {icon} {percentage}%"; 
+         format-alt = "USED: {used:0.1f}GiB/{total:0.1f}GiB ({percentage}%) SWAP: {swapUsed:0.1f}GiB/{swapTotal:0.1f}GiB ({swapPercentage}%)"; 
         };
 
         "pulseaudio" = {
           format = "{icon} {volume}%";
-          format-bluetooth = "{icon} {volume}% ";
+          format-bluetooth = "{icon} {volume}%";
           format-muted = "🔇";
           format-icons = {
             "headphones" = "🎧";
@@ -61,6 +59,7 @@
             "default" = ["🔈" "🔊"];
           };
           on-click = "pavucontrol";
+          on-click-right = "pactl set-sink-mute @DEFAULT_SINK@ toggle";
         };
 
         "battery" = {
@@ -77,6 +76,7 @@
         "clock" = {
           format = "{:%d.%m.%Y - %H:%M}";
           format-alt = "{:%A, %B %d at %R}";
+          tooltip-format = "<tt><small>{calendar}</small></tt>";
         };
 
         "tray" = {

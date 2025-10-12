@@ -3,6 +3,8 @@
   environment.systemPackages = with pkgs; [
 
     bitwarden-desktop # Secure and free password manager for all of your devices
+    bluez # Official Linux Bluetooth protocol stack
+    bluez-tool # Set of tools to manage bluetooth devices for linux
     brave # Privacy-oriented browser for Desktop and Laptop computers
     brightnessctl # This program allows you to read and control device brightness
     discord # All-in-one cross-platform voice and text chat for gamers
@@ -13,6 +15,7 @@
     librewolf # Fork of Firefox, focused on privacy, security and freedom
     light # GNU/Linux application to control backlights
     mediainfo # Supplies technical and tag information about a video or audio file
+    mpv # General-purpose media player
     obsidian # Powerful knowledge base that works on top of a local folder of plain text Markdown files
     pavucontrol # PulseAudio Volume Control
     playerctl # Command-line utility and library for controlling media players that implement

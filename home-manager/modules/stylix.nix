@@ -20,13 +20,6 @@
       wofi.enable = false;
     };
 
-    # Remove or comment out the problematic cursor section
-    # cursor = {
-    #   name = "DMZ-Black";
-    #   size = 24;
-    #   package = pkgs.vanilla-dmz;
-    # };
-
     fonts = {
       emoji = {
         name = "Noto Color Emoji";

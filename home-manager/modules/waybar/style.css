@@ -9,8 +9,8 @@
 }
 
 window#waybar {
-  background: rgba(40, 42, 54, 0.9);
-  border-bottom: 3px solid #ff79c6;
+  background: #000000;
+  border-bottom: 3px solid #9400d3;
   margin: 5px;
   border-radius: 12px;
 }
@@ -19,31 +19,31 @@ window#waybar {
 #workspaces button {
   padding: 5px 12px;
   margin: 0 3px;
-  background: #44475a;
-  color: #f8f8f2;
+  background: black;
+  color: #f5f5f5;
   border-radius: 8px;
   transition: all 0.2s ease;
 }
 
 #workspaces button.active {
-  background: #ff79c6;
-  color: #282a36;
+  background: linear-gradient(45deg, #008000, #000000);
+  color: #000000;
   box-shadow: 0 0 10px rgba(255, 121, 198, 0.5);
 }
 
 #workspaces button:hover {
-  background: #6272a4;
+  background: linear-gradient(45deg, #9400d3, #000000);
 }
 
 #workspaces button.focused {
   background: #8be9fd;
-  color: #282a36;
+  color: #000000;
   box-shadow: 0 0 10px rgba(139, 233, 253, 0.5);
 }
 
 #workspaces button.urgent {
-  background: #ff5555;
-  color: #f8f8f2;
+  background: #ff0000;
+  color: #f5f5f5;
   animation: pulse 1s infinite;
 }
 
@@ -54,30 +54,16 @@ window#waybar {
 }
 
 /* Module Styling */
-#clock, #battery, #pulseaudio, #tray, #language, #weather {
+#clock, #battery, #pulseaudio, #tray, #cpu, #memory {
   padding: 0 12px;
   margin: 0 5px;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
-#language {
+#pulseaudio, #battery, #clock, #tray, #cpu, #memory {
   color: #f8f8f2;
-  background: linear-gradient(45deg, #ff79c6, #8be9fd);
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(255, 121, 198, 0.3);
-}
-
-#custom-weather {
-  color: #f8f8f2;
-  background: linear-gradient(45deg, #8be9fd, #50fa7b);
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(139, 233, 253, 0.3);
-}
-
-#pulseaudio {
-  color: #f8f8f2;
-  background: linear-gradient(45deg, #50fa7b, #f1faee);
+  background: linear-gradient(45deg, #9400d3, #000000);
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(80, 250, 123, 0.3);
 }
@@ -88,33 +74,12 @@ window#waybar {
   box-shadow: 0 0 8px rgba(255, 85, 85, 0.3);
 }
 
-#battery {
-  color: #f8f8f2;
-  background: linear-gradient(45deg, #ff79c6, #f1faee);
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(255, 121, 198, 0.3);
-}
-
-#clock {
-  color: #f8f8f2;
-  background: linear-gradient(45deg, #ff79c6, #f1faee);
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(255, 121, 198, 0.3);
-}
-
-#tray {
-  color: #f8f8f2;
-  background: linear-gradient(45deg, #ff79c6, #f1faee);
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(255, 121, 198, 0.3);
-}
-
 /* Window Title */
 #window {
   color: #f8f8f2;
-  background: rgba(68, 71, 90, 0.7);
+  background: linear-gradient(90deg, #9400d3, #000000);
   padding: 0 15px;
   border-radius: 8px;
   margin: 0 5px;
-  box-shadow: 0 0 8px rgba(139, 233, 253, 0.2);
+  box-shadow: 0 0 8px #000000;
 }
