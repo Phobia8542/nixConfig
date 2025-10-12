@@ -6,6 +6,7 @@
   xwayland # X server for interfacing X1 apps with Wayland protocol
   # seatd # Minimal seat management daemon, and universal seat management library
   btop-cuda # Monitor of resources
+  nvidia-container-toolkit # NVIDIA Container Toolkit
 
   ];
 }

@@ -17,6 +17,7 @@
     flatpak-builder # Tool to build flatpaks from source
     flameshot # Powerful yet simple to use screenshot software
     glances # Cross-platform curses-based monitoring tool
+    gparted # Graphical disk partitioning tool
     gtt # Google Translate TUI (Originally). Now support Apertium, Argos, Bing, ChatGPT, DeepL, Google, Reverso
     kdePackages.filelight # Quickly visualize your disk space usage
     kdePackages.kdenlive # Free and open source video editor, based on MLT Framework and KDE Frameworksq
@@ -27,7 +28,6 @@
     nil
     nixd # Nix language server, based on nix libraries
     networkmanager-openvpn # NetworkManager's OpenVPN plugin
-    nvidia-container-toolkit # NVIDIA Container Toolkit
     nvtopPackages.full # (h)top like task monitor for AMD, Adreno, Intel and NVIDIA GPUs
     openvpn # Robust and highly flexible tunneling application
     rpi-imager # Raspberry Pi Imaging Utility
