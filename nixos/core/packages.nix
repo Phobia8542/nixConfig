@@ -4,7 +4,7 @@
 
     bitwarden-desktop # Secure and free password manager for all of your devices
     bluez # Official Linux Bluetooth protocol stack
-    bluez-tool # Set of tools to manage bluetooth devices for linux
+    bluez-tools # Set of tools to manage bluetooth devices for linux
     brave # Privacy-oriented browser for Desktop and Laptop computers
     brightnessctl # This program allows you to read and control device brightness
     discord # All-in-one cross-platform voice and text chat for gamers
