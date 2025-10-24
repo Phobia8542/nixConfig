@@ -3,13 +3,10 @@
 
   # ani-cli # Cli tool to browse and play anime
   # caido # Lightweight web security auditing toolkit
-  # xwayland # X server for interfacing X1 apps with Wayland protocol
-  # seatd # Minimal seat management daemon, and universal seat management library
   btop-rocm # Monitor of resources
-  # xorg.xgamma # Required by brightctl
-  bc # GNU software calculator (Required by brightctl)
   # wl-gammactl # Contrast, brightness, and gamma adjustments for Wayland
   # swww # Effecient animated wallpaper daemon for wayland, controlled at runtime
+  foodfetch # Yet another fetch to quickly get recipes
 
   ];
 }

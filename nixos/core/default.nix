@@ -2,10 +2,13 @@
   imports = [
     ./autoUpgrade.nix
     ./boot.nix
+    ./env.nix
     ./hardware.nix
     ./home-manager.nix
     ./hyprland.nix
+    ./mime.nix
     ./network.nix
+    ./nh.nix
     ./nix.nix
     ./packages.nix
     ./security.nix

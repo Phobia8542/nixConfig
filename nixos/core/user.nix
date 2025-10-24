@@ -5,10 +5,9 @@
     defaultUserShell = pkgs.nushell;
     users.${user} = {
       isNormalUser = true;
-      extraGroups = [ "wheel" "networkmanager" "docker" "gamemode" "video" ];
+      extraGroups = [ "wheel" "networkmanager" "docker" "gamemode" ];
     };
   };
-  # environment.shells = [ pkgs.nushell ]; # make nushell default shell
 
   # Allow for unfree packages
     nixpkgs.config = {
@@ -18,5 +17,5 @@
       };
     };
 
-  # services.getty.autologinUser = user;
+  # services.getty.autologinUser = user; # Enable autologin
 }

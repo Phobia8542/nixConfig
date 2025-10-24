@@ -1,5 +1,5 @@
 {
-  description = "My system configuration";
+  description = "Mult-host flake";
 
   inputs = {
 
@@ -15,16 +15,6 @@
       url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    # Hyprland plugins
-    # hyprland-plugins = {
-      # url = "github:hyprwm/hyprland-plugins";
-      # inputs.hyprland.follows = "hyprland";
-    # };
-
-    # Hyprspacem workspace overview plugin
-    # hyprspace.url = "github:KZDKM/Hyprspace";
-    # hyprspace.inputs.hyprland.follows = "hyprland";
 
     # Hyprpaper, wallpaper manager for hyprland
     hyprpaper.url = "github:hyprwm/hyprpaper";
@@ -51,6 +41,7 @@
       { hostname = "inari"; stateVersion = "24.05"; }
       { hostname = "nomad"; stateVersion = "24.11"; }
       { hostname = "xerxes"; stateVersion = "24.05"; }
+      { hostname = "circe"; stateVersion = "24.05"; }
     ];
 
     makeSystem = { hostname, stateVersion }: nixpkgs.lib.nixosSystem {

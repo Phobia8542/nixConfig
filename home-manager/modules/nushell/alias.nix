@@ -2,7 +2,6 @@
 {
   programs.nushell.shellAliases = {
 
-    gL = "glances"; # Launch glances
     iSt = "speedtest-rs"; # Check internet speed
     l = "ls -l";
     la = "ls -la ";
@@ -40,23 +39,24 @@
 
     ## NixOS commands
 
-    bSf = "sudo nixos-rebuild build --flake"; # Build current flake (will not effect reboot) - MUST be followed by "./#hostname --show-trace"
-    cHf = "cp ~/.config/home-manager/home.nix ."; # Copy Home-manager config file to current working directory
+    # bSf = "sudo nixos-rebuild build --flake"; # Build current flake (will not effect reboot) - MUST be followed by "./#hostname --show-trace"
+    # cHf = "cp ~/.config/home-manager/home.nix ."; # Copy Home-manager config file to current working directory
     dF = "cd ~/nixConfig/"; # Move directly to dotfiles
     dFc = "cd ~/nixConfig/nixos/core"; # Move directly to system dotfiles
     dFh = "cd ~/nixConfig/home-manager/modules"; # Move directly to home-manager modules
-    eH = "start ~/nixConfig/home-manager"; # Edit Home-manager configuration
+    eHc = "cd ~/nixConfig/home-manager"; # Edit Home-manager configuration
     hMg = "home-manager generations"; # List home-manager generations
     hMr = "home-manager remove-generations"; # Remove home-manager generations
     nCg = "sudo nix-collect-garbage"; # Delete unreachable store objects
-    nGc = "sudo nix-store --gc"; # Garbage collection
+    nCu = "nh clean user"; # Clean the current user's profile using nh (preferred method)
+    nGc = "sudo nix-store --gc"; # Clean nix store (Garbage collection)
     nLg = "nixos-rebuild list-generations"; #
     nFu = "nix flake update"; # Update flake (package manager update)
     nS = "nh search"; # Search for nix packages
-    tSf = "sudo nixos-rebuild test --flake"; # Test Build using current flake
-    tH = "home-manager build --flake . --show-trace"; # Test Home-manager configuration
-    uH = "home-manager switch --flake . --show-trace"; # Update Home-manager
-    uSf = "sudo nixos-rebuild switch --flake"; # Update & upgrade System flake  - MUST be followed by "./#hostname --show-trace --upgrade"
+    tSf = "nh os build"; # Test Build using current flake
+    tH = "nh home build"; # Test Home-manager configuration
+    uH = "nh home switch"; # Update Home-manager using nh
+    uSf = "nh os switch --verbose"; # Update & upgrade System flake using nh  
 
     ## Tmux commands
 
@@ -68,12 +68,8 @@
     ## Niche commands
     cC = "sudo cp /etc/nixos/configuration.nix ."; # Copy Config file to current working directory
     # cDf = "sudo cp -r ~/.dotfile ."; # Copy dotfile to current working directory
-    eC = "sudo start /etc/nixos/configuration.nix"; # Edit Config file
-    # ipy = "ipython";
-    # piv = "python -m venv .venv";
-    # py = "python";
-    # y = "yazi";
-
+    eC = "sudo vi /etc/nixos/configuration.nix"; # Edit Config file
+    # gL = "glances"; # Launch glances
 
   };
 }

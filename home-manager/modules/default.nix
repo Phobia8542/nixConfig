@@ -17,7 +17,6 @@
     ./wofi
     ./zsh.nix
 
-    # ./bat.nix
     # ./btop.nix
     # ./eza.nix
     # ./lazygit.nix

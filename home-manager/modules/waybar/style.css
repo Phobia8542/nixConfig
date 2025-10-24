@@ -26,13 +26,13 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background: linear-gradient(45deg, #008000, #000000);
+  background: linear-gradient(45deg, #9400d3, #000000);
   color: #000000;
   box-shadow: 0 0 10px rgba(255, 121, 198, 0.5);
 }
 
 #workspaces button:hover {
-  background: linear-gradient(45deg, #9400d3, #000000);
+  background: linear-gradient(45deg, #008000, #000000);
 }
 
 #workspaces button.focused {
@@ -77,7 +77,7 @@ window#waybar {
 /* Window Title */
 #window {
   color: #f8f8f2;
-  background: linear-gradient(90deg, #9400d3, #000000);
+  background: linear-gradient(45deg, #9400d3, #000000);
   padding: 0 15px;
   border-radius: 8px;
   margin: 0 5px;

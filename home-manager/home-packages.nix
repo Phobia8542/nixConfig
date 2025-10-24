@@ -10,7 +10,6 @@
     bat # Cat clone with syntax highlighting and Git integration
     carapace # Multi-shell multi-command argument completer
     cava # Console-based Audio Visualizer for alsa
-    # cavalier # Visualize audio with CAVA
     ffmpeg # Complete, cross-platform solution to record, convert and stream audio and video
     ffmpegthumbnailer # Lightweight video thumbnailer
     fzf # Command-line fuzzy finder written for fzf
@@ -41,12 +40,8 @@
     # neovim # Vim text editor fork focused on extensibility and agility 
     showmethekey # Show keys you typed on screen
     feh # Lightweight image viewer
-    # screenkey # Screencast tool to display your keys inspired by Screenflick
-    # gromit-mpx # Desktop annotation tool
-    # herbstluftwm # Manual tiling window manger for X
+    screenkey # Screencast tool to display your keys inspired by Screenflick
     # rofi # Window switcher, run dialog and dmenu replacement
-    # light # GNU/Linux application to control backlights
-    # brightnessctl # This program allows you to read and control device brightness
 
   ];
 }
