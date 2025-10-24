@@ -1,15 +1,15 @@
-# ❄️ NixOS Multi-host Config 
+# NixOS Multi-host Config 
 
 This configuration is based on [Ampersand's config](https://github.com/Andrey0189/nixos-config-reborn/tree/master)
 
 ## ✨ Features
 
 - 🖥️ **Multiple Hosts Support**: Easy to configure for different hosts.
-- 🎨 **Gruvbox Theme**: A perfect blend of vibrant and subtle colors.
-- 🪟 **Hyprland + Waybar**: 10/10 window compositor on Wayland.
-- 🏠 **Home Manager Integration**: lots of stuff configured.
-- 🧇 **Tmux**: with my own hotkeys.
-- 🌟 **Nushell + starship**: Efficient shell setup with lots of aliases.
+- 🎨 **Dark Theme**: By default set to a dark colour scheme (Easy to change).
+- 🪟 **Hyprland + Waybar**: This Hyprland configuration is using UWSM.
+- 🏠 **Home Manager Integration**: A simple way to manage user configurations.
+- 🧇 **Tmux**: With preconfigured hotkeys.
+- 🌟 **Nushell + starship**: NuShell pre-configured with aliases.
 
 ## 🚀 Installation
 
@@ -34,7 +34,7 @@ To get started with this setup, follow these steps:
 4. **Put your `hardware-configuration.nix` file there**:
 
     ```bash
-    cp /etc/nixos/hardware-configuration.nix ./
+    sudo cp /etc/nixos/hardware-configuration.nix .
     ```
 
 5. **Edit `hosts/<your_hostname>/local.nix` and `nixos/core/packages.nix` files if needed**:

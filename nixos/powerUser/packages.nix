@@ -12,6 +12,7 @@
     flatpak # Linux application sandboxing and distribution framework
     flatpak-builder # Tool to build flatpaks from source
     flameshot # Powerful yet simple to use screenshot software
+    gimp3 # GNU Image Manipulation Program
     glances # Cross-platform curses-based monitoring tool
     gtt # Google Translate TUI (Originally). Now support Apertium, Argos, Bing, ChatGPT, DeepL, Google, Reverso
     kdePackages.kdenlive # Free and open source video editor, based on MLT Framework and KDE Frameworksq

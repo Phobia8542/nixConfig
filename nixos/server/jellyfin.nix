@@ -1,15 +1,15 @@
 { pkgs, ... }:
 {
-  networking.firewall.allowedTCPPorts = [80 443];
+  networking.firewall.allowedTCPPorts = [80 443]; # Opens port 80 & 443 for browser use (whitelisting)
 
   services.jellyfin = {
     enable = true;
     openFirewall = true;
-    user = "phobes";
-    # group = "jellyfin";
+    user = "phobes"; # Change/Set username (Default user is jellyfin)
+    # group = "jellyfin"; # Recommended for security reasons
   };
 
-  # Enable Caddy HTTPS Web Server with Let's Encrypt auto-TLS
+  # Enable Caddy (Set proxy IP to YOUR host's IP) - Allows for use of server while using VPN
   services.caddy = {
     enable = true;
     virtualHosts."localhost".extraConfig =
