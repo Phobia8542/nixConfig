@@ -6,7 +6,9 @@
   btop-rocm # Monitor of resources
   # wl-gammactl # Contrast, brightness, and gamma adjustments for Wayland
   # swww # Effecient animated wallpaper daemon for wayland, controlled at runtime
-  foodfetch # Yet another fetch to quickly get recipes
+  # foodfetch # Yet another fetch to quickly get recipes
+  # webcord # Discord and SpaceBar electron-based client implemented without Discord API
+  # vesktop # Alternate client for Dicord with Vencord built-in
 
   ];
 }
