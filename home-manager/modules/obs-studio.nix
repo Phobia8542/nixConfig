@@ -9,6 +9,7 @@
       obs-studio-plugins.input-overlay # Show keyboard, gamepad and mouse input on stream
       obs-studio-plugins.obs-multi-rtmp # Multi-site simultaneous broadcast plugin for OBS Studio
       obs-studio-plugins.obs-mute-filter # OBS Studio plugin to mute audio of a source
+      obs-studio-plugins.obs-pipewire-audio-capture # Used to seperate audio tracks (Must install wireplumber audio service)
     ];
   };
 }
