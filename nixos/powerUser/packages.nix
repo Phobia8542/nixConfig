@@ -24,7 +24,7 @@
     tealdeer # Very fast implementation of tldr in Rust
     toipe # Yet another typing test, but crab flavoured
     unzip # Extraction utility for archives compressed in .zip format
-    # virtualbox # PC emulator
+    virtualbox # PC emulator
     # wasistlost # Unofficial WhatsApp desktop application
     wget # Tool for retrieving files using HTTP, HTTPS, and FTP
     zoxide # Fast cd command that learns your habits
