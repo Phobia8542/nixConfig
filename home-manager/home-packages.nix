@@ -26,7 +26,7 @@
     zoxide # Fast cd command that learns your habits
 
     # Coding stuff
-    openjdk # Open-source Java Development Kit
+    # openjdk # Open-source Java Development Kit
     nodejs # Event-driven I/O framework for the V8 Javascript engine
 
     # WM stuff

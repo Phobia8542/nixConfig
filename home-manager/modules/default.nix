@@ -6,7 +6,6 @@
     ./hyprland
     ./neovim.nix
     ./nushell
-    ./obs-studio.nix
     ./ranger.nix
     ./shell.nix
     ./starship.nix
@@ -23,5 +22,6 @@
     # ./qt.nix
     # ./zathura.nix
     # ./zed.nix
+    # ./obs-studio.nix
   ];
 }
