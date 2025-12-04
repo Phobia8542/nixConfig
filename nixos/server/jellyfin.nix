@@ -24,5 +24,6 @@
     jellyfin-web # Web Client for Jellyfin
     jellyfin-ffmpeg # Complete, cross-platform solution to record, convert and stream audio and video (Jellyfin Fork)
     ffmpeg-full # Complete, cross-platofrm solution to record, convert and stream audio and video
+    ffmpegthumbnailer # Lightweight video thumbnailer
   ];
 }

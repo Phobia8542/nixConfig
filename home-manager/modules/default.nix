@@ -1,9 +1,8 @@
 {
   imports = [
-    ./alacritty.nix
-    ./git.nix
     ./ghostty.nix
     ./hyprland
+    ./git.nix
     ./neovim.nix
     ./nushell
     ./ranger.nix
@@ -16,6 +15,7 @@
     ./wofi
     ./zsh.nix
 
+    # ./alacritty.nix
     # ./btop.nix
     # ./eza.nix
     # ./lazygit.nix

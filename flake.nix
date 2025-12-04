@@ -37,7 +37,7 @@
     homeStateVersion = "24.11";
     user = "phobes";
     hosts = [
-      { hostname = "artemis"; stateVersion = "24.05"; }
+      { hostname = "artemis"; stateVersion = "25.05"; }
       { hostname = "inari"; stateVersion = "24.05"; }
       { hostname = "nomad"; stateVersion = "24.11"; }
       { hostname = "xerxes"; stateVersion = "24.05"; }
