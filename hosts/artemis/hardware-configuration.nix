@@ -24,12 +24,12 @@
       options = [ "fmask=0077" "dmask=0077" ];
     };
 
-  fileSystems."/mnt/bulk2" =
+  fileSystems."/mnt/gameDriveSmall" =
     { device = "/dev/disk/by-uuid/1bbc7515-b014-48b1-8228-8dcab3e8689d";
       fsType = "ext4";
     };
 
-  fileSystems."/mnt/gameDriveSmall" =
+  fileSystems."/mnt/bulk2" =
     { device = "/dev/disk/by-uuid/55523ad9-97b3-49b9-8f5d-0ab422056cbb";
       fsType = "ext4";
     };
