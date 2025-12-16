@@ -8,6 +8,7 @@
     bluez-tools # Set of tools to manage bluetooth devices for linux
     brave # Privacy-oriented browser for Desktop and Laptop computers
     brightnessctl # This program allows you to read and control device brightness
+    cliphist # Wayland clipboard manager
     firefox # Web browser
     fzf # Command-line fuzzy finder written for fzf
     htop # Interactive process viewer
@@ -17,6 +18,7 @@
     killall
     kitty # Fast, feature-rich, GPU based terminal emulator
     legcord # Lightweight, alternative desktop client for Discord
+    libnotify # Library that sends desktop notifications to a notification daemon
     libreoffice # Comprehensive, professional-quality productivity suite 
     librewolf # Fork of Firefox, focused on privacy, security and freedom
     light # GNU/Linux application to control backlights
@@ -33,6 +35,7 @@
     vlc # Cross-platform media player and streaming server
     vscodium # Open source code editor developed by Microsoft
     wget # Tool for retrieving files using HTTP, HTTPS, and FTP
+    wl-clipboard # Command-line copy/paste utilities for Wayland
     xdg-desktop-portal-gtk # Desktop integration portals for sandboxed apps
     xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland (Enables screen sharing)
     xwayland # X server for interfacing X1 apps with Wayland protocol
