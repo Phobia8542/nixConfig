@@ -12,6 +12,7 @@
     firefox # Web browser
     fzf # Command-line fuzzy finder written for fzf
     htop # Interactive process viewer
+    kdePackages.drkonqi # Crash handler for KDE software
     kdePackages.kcalc # Scientific calculator
     kdePackages.xdg-desktop-portal-kde # xdg-desktop-portal backend for kde
     # kdePackages.xwaylandvideobridge # Utility to allow streaming Wayland windows to x applications
@@ -24,7 +25,7 @@
     light # GNU/Linux application to control backlights
     mediainfo # Supplies technical and tag information about a video or audio file
     mpv # General-purpose media player
-    # nvtopPackages.full # (h)top like task monitor for AMD, Adreno, Intel and NVIDIA GPUs
+    nvtopPackages.full # (h)top like task monitor for AMD, Adreno, Intel and NVIDIA GPUs
     obsidian # Powerful knowledge base that works on top of a local folder of plain text Markdown files
     openvpn # Robust and highly flexible tunneling application
     pavucontrol # PulseAudio Volume Control
