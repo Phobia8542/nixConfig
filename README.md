@@ -11,6 +11,53 @@ This configuration is based on [Ampersand's config](https://github.com/Andrey018
 - 🧇 **Tmux**: With preconfigured hotkeys.
 - 🌟 **Nushell + starship**: NuShell pre-configured with aliases.
 
+## Prerequisites
+
+1. **Change hostname** You will need to change your host name for changes to take effect (Make sure to use `sudo` for changes to be applied)
+
+    ```bash
+    sudo nano /etc/nixos/configuration.nix
+    ```
+
+Edit `networking.hostName = "nixos"` to your given hostname
+
+2. **Enable packages** You'll want to install git - Optional: vim & vscodium
+
+Below `environment.systemPackages = with pkgs` you'll see vim commented out with a `#` symbol. Simply remove `#` to enable vim
+Add `git` below vim in order to install git
+Add `vscodium` below to install vscodium
+
+3. **Enable Flakes** 
+
+At the bottom of the page below `system.stateVersion = "xx.xx";` append:
+
+    ```bash
+    nix.settings.experimental-features = [ "nix-command" "flakes" ];
+    ```
+
+4. **Save & test new build** Must complete this step for configuration to work
+
+Exit nano by pressing `ctrl + x`, then press `y` to confirm choice, and `enter` (DO NOT change filename before exiting)
+
+While in `/etc/nixos` directory: Test before switch
+
+    ```bash
+    sudo nixos-rebuild test
+    ```
+
+If/When successfully built:
+
+    ```bash
+    sudo nixos-rebuild switch
+    ```
+
+5. **Reboot**
+
+    ```bash
+    reboot
+    ```
+
+
 ## 🚀 Installation
 
 To get started with this setup, follow these steps:
@@ -62,14 +109,31 @@ To get started with this setup, follow these steps:
     ...
     ```
 
-7. **Rebuilding**:
+7. **Remove traces of phobes** Make sure YOUR user information is correct before rebuild
+
+In text editor search for `phobes` and swap all highlighted sections with YOUR username (This excludes `README.md`)
+
+8. **Rebuilding**: MUST be in flake directory (test before switch)
 
     ```bash
     cd nixConfig 
     git add .
-    nixos-rebuild switch --flake ./#<hostname>
+    git status
+    sudo nixos-rebuild switch --flake ./#<hostname>
     # or nixos-install --flake ./#<hostname> if you are installing on a fresh system
-    home-manager switch
+    home-manager switch --flake . --show-trace
+    ```
+    
+## Post set up tweaks
+
+Settings up Jellyfin: Go to `nixos/server` to view README.md for server configuration
+
+Change git credentials (gh): Edit `home-manager/git.nix`, add appropriate credentials
+
+Soft link configuration on home directory (optional): 
+
+    ```bash
+    ln -s location/of/nixConfg ~/
     ```
 
 ## 🤝 Contributions
