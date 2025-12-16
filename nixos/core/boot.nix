@@ -13,7 +13,7 @@
       };
       systemd-boot.enable = true; # Enable systemd bootloader
     };
-    kernelPackages = pkgs.linuxPackages_zen; # Load zen kernel 
+    kernelPackages = pkgs.linuxPackages_latest; # Set kernel 
   };
   hardware = {
     bluetooth = {
