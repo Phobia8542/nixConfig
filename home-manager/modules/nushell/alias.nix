@@ -53,8 +53,9 @@
     nLg = "nixos-rebuild list-generations"; #
     nFu = "nix flake update"; # Update flake (package manager update)
     nS = "nh search"; # Search for nix packages
-    tSf = "nh os build"; # Test Build using current flake
     tH = "nh home build"; # Test Home-manager configuration
+    tO = "nix-shell -p"; # Try out packages 
+    tSf = "nh os build"; # Test Build using current flake
     uH = "nh home switch"; # Update Home-manager using nh
     uSf = "nh os switch --verbose"; # Update & upgrade System flake using nh  
 

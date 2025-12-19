@@ -8,6 +8,7 @@
     shell = "/home/phobes/.nix-profile/bin/nu";
     terminal = "screen-256color";
     extraConfig = ''
+      set -g prefix C-space # Set prefix (default ctrl + b)
       # set -as terminal-features ",ghostty*:RGB"
       bind -n M-r source-file ~/.config/tmux/tmux.conf \; display "Reloaded!"
       bind C-p previous-window
@@ -52,7 +53,7 @@
 
       # Window splitting
       unbind v
-      undbind h
+      unbind h
       bind v split-window -h -c '#{pane_current_path}'
       bind h split-window -v -c '#{pane_current_path}'
 
