@@ -9,6 +9,8 @@
   # foodfetch # Yet another fetch to quickly get recipes
   # webcord # Discord and SpaceBar electron-based client implemented without Discord API
   # vesktop # Alternate client for Dicord with Vencord built-in
+  # whatsie # Feature rich WhatsApp Client for Desktop Linux
+  whatsapp-electron # Electron wrapper around Whatsapp
 
   ];
 }
