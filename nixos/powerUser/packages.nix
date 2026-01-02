@@ -42,6 +42,7 @@
     virtualbox # PC emulator
     # wasistlost # Unofficial WhatsApp desktop application
     wget # Tool for retrieving files using HTTP, HTTPS, and FTP
+    whatsapp-electron # Electron wrapper around Whatsapp
     zip # Compressor/archiver for creating and modifying zipfiles
     zoxide # Fast cd command that learns your habits
 
