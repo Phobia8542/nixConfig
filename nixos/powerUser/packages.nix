@@ -14,6 +14,7 @@
     deluge # Torrent client
     dmenu # Generic, highly customizable, and efficient menu for the X Window
     docker # Open source project to pack, ship and run any application as a lightweight container
+    fancontrol-gui # GUI for fancontrol with QT & KDE framework
     fastfetch # Feature-rich & performance oriented neofetch (information tool)
     flameshot # Powerful yet simple to use screenshot software
     flatpak # Linux application sandboxing and distribution framework
@@ -27,6 +28,7 @@
     kdePackages.filelight # Quickly visualize your disk space usage
     kdePackages.kdenlive # Free and open source video editor, based on MLT Framework and KDE Frameworksq
     kdePackages.partitionmanager # Manage the disk devices, partitions, and file systems on your computer:wallpaper
+    lm_sensors # Tools for reading hardware sensors
     lmstudio # LM Studio is an easy to use desktop app for experimenting with local and open-source Large Language Models (LLMs)
     mako # Lightweight Wayland notification daemon
     neovide # Simple, no-nonsense, cross-platform graphical user interface for Neovim

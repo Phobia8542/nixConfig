@@ -29,6 +29,7 @@
     obsidian # Powerful knowledge base that works on top of a local folder of plain text Markdown files
     openvpn # Robust and highly flexible tunneling application
     pavucontrol # PulseAudio Volume Control
+    pear-desktop # Electron wrapper around YouTube Music
     playerctl # Command-line utility and library for controlling media players that implement
     speedtest-rs # Command line internet speedtest tool written in rust
     thunderbird # full-featured e-mail client
@@ -40,7 +41,6 @@
     xdg-desktop-portal-gtk # Desktop integration portals for sandboxed apps
     xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland (Enables screen sharing)
     xwayland # X server for interfacing X1 apps with Wayland protocol
-    youtube-music # Electron wrapper around YouTube Music
     zram-generator # Systemd unit generator for zram devices
 
   ];
