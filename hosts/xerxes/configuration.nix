@@ -5,6 +5,7 @@
     ./amd-config.nix
     ./hardware-configuration.nix
     ./local.nix
+    ./nuphy.nix
     ../../nixos/core
     ../../nixos/gaming
     ../../nixos/pentest
