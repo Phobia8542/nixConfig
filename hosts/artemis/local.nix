@@ -7,6 +7,8 @@
   # seatd # Minimal seat management daemon, and universal seat management library
   btop-cuda # Monitor of resources
   nvidia-container-toolkit # NVIDIA Container Toolkit
+  ollama-cuda # Get up and running with large language models locally, using CUDA for Nvidia GPU acceleration
 
   ];
+  services.open-webui.enable = true;
 }
