@@ -30,7 +30,7 @@
     kdePackages.partitionmanager # Manage the disk devices, partitions, and file systems on your computer:wallpaper
     lm_sensors # Tools for reading hardware sensors
     lmstudio # LM Studio is an easy to use desktop app for experimenting with local and open-source Large Language Models (LLMs)
-    mako # Lightweight Wayland notification daemon
+    # mako # Lightweight Wayland notification daemon
     neovide # Simple, no-nonsense, cross-platform graphical user interface for Neovim
     networkmanager-openvpn # NetworkManager's OpenVPN plugin
     nil

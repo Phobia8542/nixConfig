@@ -8,6 +8,7 @@
     ./nuphy.nix
     ../../nixos/core
     ../../nixos/gaming
+    # ../../nixos/ollama/rocm.nix
     ../../nixos/pentest
     ../../nixos/powerUser
     ../../nixos/server
