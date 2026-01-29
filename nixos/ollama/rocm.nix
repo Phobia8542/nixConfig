@@ -1,8 +1,10 @@
+{ pkgs, ...}:
 {
   services = { 
     ollama = {
       enable = true;
-      acceleration = "rocm";
+      package = pkgs.ollama-rocm;
+      # acceleration = "rocm";
     };
     open-webui.enable = true;
   };
