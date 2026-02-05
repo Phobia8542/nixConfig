@@ -26,7 +26,7 @@
     gparted # Graphical disk partitioning tool
     gtt # Google Translate TUI (Originally). Now support Apertium, Argos, Bing, ChatGPT, DeepL, Google, Reverso
     kdePackages.filelight # Quickly visualize your disk space usage
-    # kdePackages.kdenlive # Free and open source video editor, based on MLT Framework and KDE Frameworksq
+    kdePackages.kdenlive # Free and open source video editor, based on MLT Framework and KDE Frameworksq
     kdePackages.partitionmanager # Manage the disk devices, partitions, and file systems on your computer:wallpaper
     lm_sensors # Tools for reading hardware sensors
     lmstudio # LM Studio is an easy to use desktop app for experimenting with local and open-source Large Language Models (LLMs)
@@ -47,6 +47,10 @@
     whatsapp-electron # Electron wrapper around Whatsapp
     zip # Compressor/archiver for creating and modifying zipfiles
     zoxide # Fast cd command that learns your habits
+
+    ## Utils
+
+    shaderc # Collection of tools, libraries and tests for shader compilation
 
   ];
 
