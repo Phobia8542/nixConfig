@@ -4,6 +4,7 @@
     ./ghostty.nix
     ./git.nix
     ./neovim.nix
+    ./obs-studio.nix
     ./nushell
     ./ranger.nix
     ./shell.nix
