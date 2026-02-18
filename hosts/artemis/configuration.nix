@@ -6,10 +6,13 @@
     ./nvidia-config.nix
     ./local.nix
     ../../nixos/core
+    ../../nixos/content
     ../../nixos/gaming
+    ../../nixos/nvidia
     ../../nixos/ollama/cuda.nix
     ../../nixos/pentest
     ../../nixos/powerUser
+    ../../nixos/tucked
   ];
 
   environment.systemPackages = [ pkgs.home-manager ];

@@ -7,6 +7,7 @@
     ./local.nix
     ../../nixos/core
     ../../nixos/gaming
+    ../../nixos/nvidia
     ../../nixos/ollama/cuda.nix
     ../../nixos/pentest
     ../../nixos/powerUser

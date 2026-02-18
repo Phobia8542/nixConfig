@@ -4,10 +4,11 @@
   home.packages = with pkgs; [
     # Packages in each category are sorted alphabetically
 
+    bat # Cat clone with syntax highlighting and Git integration
+    cava # Console-based Audio Visualizer for alsa
     carapace # Multi-shell multi-command argument completer
     feh # Lightweight image viewer
-    # ghostty # Fast, Native, feature-rich terminal emulator pushing modern features
-    hyprpicker # Blazing fast wayland wallpaper utility
+    # hyprpicker # Blazing fast wayland wallpaper utility
     nushell # Modern shell written in Rust
     starship # Minimal, blazing fast, and extremely customizable prompt for any shell
     zoxide # Fast cd command that learns your habits
