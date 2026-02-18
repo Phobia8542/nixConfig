@@ -10,6 +10,10 @@
   # ollama-rocm # Get up and running with large language models locally, using ROCm for AMD GPU acceleration
   adguardhome # Network-wide ads & trackers blocking DNS server
   # upwork # Online freelancing platform desktop applicatino for time tracking
+  libva # Implementation for VA-API (Video Acceleration API)
+  libvdpau # Library to use Video Decode and Presentation API for Unix (VDPAU)
+
+
 
   ];
 }
