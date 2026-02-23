@@ -40,10 +40,6 @@
   # youtube-tui # Aesthetically pleasing YouTube TUI
   # zoxide # Fast cd command that learns your habits
 
-
-
-
-
   ];
 
 }
