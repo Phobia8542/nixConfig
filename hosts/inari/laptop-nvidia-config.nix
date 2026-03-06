@@ -6,7 +6,7 @@
     package = config.boot.kernelPackages.nvidiaPackages.stable; # Stable drivers
     nvidiaSettings = true; # Enable Nvidia settings
     modesetting.enable = true; # Required
-    open = true; # Used for unstable
+    open = false; # Used for unstable
     powerManagement = {
       enable = true;
       finegrained = true;

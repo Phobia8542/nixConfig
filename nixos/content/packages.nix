@@ -3,6 +3,7 @@
   environment.systemPackages = with pkgs; [
 
     audacity # Sound editor with graphical UI
+    ffmpeg-full # Complete, cross-platofrm solution to record, convert and stream audio and video
     libva # Implementation for VA-API (Video Acceleration API)
     libva-utils # Collection of utilities and examples for VA-API
     libvdpau # Library to use Video Decode and Presentation API for Unix (VDPAU)

@@ -18,6 +18,7 @@
   gtt # Google Translate TUI (Originally). Now support Apertium, Argos, Bing, ChatGPT, DeepL, Google, Reverso
   # johnny # Open Source GUI frontend for John the ripper
   legcord # Lightweight, alternative desktop client for Discord
+  libimobiledevice # Software library that talks the protocols to support iPhone, Ipod Touch, and iPad devices
   libnotify # Library that sends desktop notifications to a notification daemon
   libreoffice # Comprehensive, professional-quality productivity suite 
   # lm_sensors # Tools for reading hardware sensors

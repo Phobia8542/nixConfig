@@ -18,7 +18,7 @@
     htop # Interactive process viewer
     kitty # Fast, feature-rich, GPU based terminal emulator
     librewolf # Fork of Firefox, focused on privacy, security and freedom
-    light # GNU/Linux application to control backlights
+    # light # GNU/Linux application to control backlights
     nushell # Modern shell written in Rust
     obsidian # Powerful knowledge base that works on top of a local folder of plain text Markdown files
     pavucontrol # PulseAudio Volume Control
