@@ -3,7 +3,7 @@
   boot.initrd.kernelModules = [ "nvidia" ]; # Load amd kernel drivers
   services.xserver.videoDrivers = [ "nvidia" "modesetting" ]; # Enables GPU Drivers
   hardware.nvidia = {
-    package = config.boot.kernelPackages.nvidiaPackages.stable; # Stable drivers
+    package = config.boot.kernelPackages.nvidiaPackages.latest; # Stable drivers
     nvidiaSettings = true; # Enable Nvidia settings
     modesetting.enable = true; # Required
     open = false; # Used for unstable

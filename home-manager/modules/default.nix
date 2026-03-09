@@ -11,6 +11,7 @@
     ./starship.nix
     ./tmux.nix
     ./zathura.nix
+    ./zed.nix
     ./zsh.nix
 
     # ./hyprland
