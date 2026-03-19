@@ -10,6 +10,7 @@
     docker # Open source project to pack, ship and run any application as a lightweight container
     fastfetch # Feature-rich & performance oriented neofetch (information tool)
     flameshot # Powerful yet simple to use screenshot software
+    fluffychat # Chat with your friends (matrix client)
     gh # GitHub CLi tool 
     git # Distributed version control system 
     glances # Cross-platform curses-based monitoring tool

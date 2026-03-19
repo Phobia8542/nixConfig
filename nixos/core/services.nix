@@ -29,5 +29,16 @@
       enable = true;
       interval = "Sun *-*-* 04:00:00";
     };
+
+    # Syncthing (decentralized file synchronization app)
+    syncthing = {
+      enable = true;
+      openDefaultPorts = true;
+      # Optional: GUI credentials (can be set in the browser instead)
+      # settings.gui = {
+        # user = "myuser";
+        # password = "mypassword";
+      # };
+    };
   };
 }

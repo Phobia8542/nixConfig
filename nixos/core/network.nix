@@ -6,6 +6,7 @@
     };
     firewall = {
       enable = true; # enable firewall
+      allowedTCPPorts = [ 8384 ];
     };
     wireless.iwd = {
       enable = true;
