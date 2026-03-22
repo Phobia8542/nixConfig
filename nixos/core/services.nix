@@ -2,9 +2,10 @@
   services = {
     blueman.enable = true; # Enable bluetooth
     cron.enable = true; # Set jobs with "systemCronJobs [];"
+    fail2ban.enable = true; # scans log files for repeated failing login attempts and bans IP addresses
+    lact.enable = true; # Enable LACT (overclocking tool)
     openssh.enable = true; # enable OpenSSH daemon
     printing.enable = true; # Enable CUPS to print documents
-    lact.enable = true; # Enable LACT (overclocking tool)
 
     # Xserver (X11) & video driver settings
     desktopManager.plasma6.enable = true; # Enable plasma KDE
