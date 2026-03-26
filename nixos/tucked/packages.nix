@@ -27,6 +27,7 @@
   mpv # General-purpose media player
   # nil
   # nixd # Nix language server, based on nix libraries
+  proton-authenticator # Two-factor authentication manager with optional sync
   # python313Packages.shodan # Python library and command-line utility for Shodan
   # ranger # File manager with minimalistic curses interface
   # rpi-imager # Raspberry Pi Imaging Utility
