@@ -6,6 +6,7 @@
     lact.enable = true; # Enable LACT (overclocking tool)
     openssh.enable = true; # enable OpenSSH daemon
     printing.enable = true; # Enable CUPS to print documents
+    usbmuxd.enable = true; # Socket daemon to multiplex connections from and to iOS devices
 
     # Xserver (X11) & video driver settings
     desktopManager.plasma6.enable = true; # Enable plasma KDE
