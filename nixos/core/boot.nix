@@ -13,7 +13,7 @@
       };
       systemd-boot = { 
         enable = true; # Enable systemd bootloader
-	configurationLimit = 4; # To avoid running out of space (adjust as needed)
+	configurationLimit = 3; # To avoid running out of space (adjust as needed)
       };
     };
     kernelPackages = pkgs.linuxPackages_zen; # Set kernel 
