@@ -6,6 +6,9 @@
       package = pkgs.ollama-cuda;
       # acceleration = "cuda";
     };
-    open-webui.enable = true;
+    open-webui = {
+      enable = true;
+      port = 9090;
+    };  
   };
 }

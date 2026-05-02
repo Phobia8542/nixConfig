@@ -6,6 +6,9 @@
       package = pkgs.ollama-rocm;
       # acceleration = "rocm";
     };
-    open-webui.enable = true;
+    open-webui = {
+      enable = true;
+      port = 9090;
+   };
   };
 }
