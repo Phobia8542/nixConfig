@@ -9,7 +9,9 @@
     ../../nixos/content
     ../../nixos/gaming
     ../../nixos/nvidia
-    ../../nixos/ollama/cuda.nix
+    ../../nixos/AI
+    ../../nixos/AI/imageGen/cuda.nix
+    ../../nixos/AI/ollama/cuda.nix
     ../../nixos/pentest
     ../../nixos/powerUser
     ../../nixos/tucked

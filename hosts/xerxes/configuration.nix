@@ -9,7 +9,8 @@
     ../../nixos/core
     ../../nixos/content
     ../../nixos/gaming
-    ../../nixos/ollama/rocm.nix
+    ../../nixos/AI
+    ../../nixos/AI/ollama/rocm.nix
     ../../nixos/pentest
     ../../nixos/powerUser
     ../../nixos/server
