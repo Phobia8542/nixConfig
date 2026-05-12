@@ -6,7 +6,12 @@
     };
     firewall = {
       enable = true; # enable firewall
-      allowedTCPPorts = [ 8384 ];
+      allowedTCPPorts = [ 
+        8384 # Syncthing
+        11434 # Ollama 
+        9090 # Open WebUI
+        6868 # Searx
+      ];
     };
     wireless.iwd = {
       enable = true;
