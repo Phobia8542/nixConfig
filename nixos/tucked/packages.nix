@@ -36,6 +36,8 @@
   # upwork # Online freelancing platform desktop applicatino for time tracking
   vencord # Cutest Discord client mod (Allows for customization of discord clients)
   # wasistlost # Unofficial WhatsApp desktop application (Later replaced by whatsapp-electron)
+  # webcord # Discord and SpaceBar electron-based client implemented without Discord
+  webcord-vencord # Webcord with Vencord web extension
   # wireguard-tools # Tools for Wireguard secure network tunnel
   # whatsapp-electron # Electron wrapper around Whatsapp
   # youtube-tui # Aesthetically pleasing YouTube TUI

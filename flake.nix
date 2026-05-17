@@ -30,9 +30,12 @@
       url = "github:danth/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    sops.url = "github:Mic92/sops-nix";
+
   };
 
-  outputs = { self, nixpkgs, home-manager, hyprland, hyprpaper, waybar, stylix, ghostty, ... }@inputs: let
+  outputs = { self, nixpkgs, home-manager, hyprland, hyprpaper, waybar, stylix, ghostty, sops, ... }@inputs: let
     system = "x86_64-linux";
     homeStateVersion = "24.11";
     user = "phobes";
@@ -52,6 +55,7 @@
 
       modules = [
         ./hosts/${hostname}/configuration.nix
+        sops.nixosModules.sops
       ];
     };
 
