@@ -31,6 +31,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    # sops, Simple and flexible tool for managing secrets
     sops.url = "github:Mic92/sops-nix";
 
   };
