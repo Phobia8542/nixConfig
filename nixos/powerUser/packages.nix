@@ -20,7 +20,7 @@
     neovide # Simple, no-nonsense, cross-platform graphical user interface for Neovim
     networkmanager-openvpn # NetworkManager's OpenVPN plugin
     # openclaw # Self-hosted, open-source AI assistant/agent
-    protonvpn-gui # Proton VPN GTK app for linux
+    proton-vpn # Proton VPN GTK app for linux
     tealdeer # Very fast implementation of tldr in Rust
     toipe # Yet another typing test, but crab flavoured
     unzip # Extraction utility for archives compressed in .zip format
