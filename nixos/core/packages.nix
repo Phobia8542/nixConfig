@@ -4,8 +4,8 @@
 
     age # Modern encryption tool with small explicit keys 
     bitwarden-desktop # Secure and free password manager for all of your devices
-    bluez # Official Linux Bluetooth protocol stack
-    bluez-tools # Set of tools to manage bluetooth devices for linux
+    # bluez # Official Linux Bluetooth protocol stack
+    # bluez-tools # Set of tools to manage bluetooth devices for linux (For CLi use)
     kdePackages.drkonqi # Crash handler for KDE software
     kdePackages.kcalc # Scientific calculator
     kdePackages.xdg-desktop-portal-kde # xdg-desktop-portal backend for kde
