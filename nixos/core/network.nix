@@ -10,7 +10,7 @@
         8384 # Syncthing
         11434 # Ollama 
         9090 # Open WebUI
-        6868 # Searx
+        # 6868 # Searx
       ];
     };
     wireless.iwd = {

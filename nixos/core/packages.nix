@@ -2,7 +2,6 @@
 {
   environment.systemPackages = with pkgs; [
 
-    age # Modern encryption tool with small explicit keys 
     bitwarden-desktop # Secure and free password manager for all of your devices
     # bluez # Official Linux Bluetooth protocol stack
     # bluez-tools # Set of tools to manage bluetooth devices for linux (For CLi use)
@@ -13,7 +12,6 @@
     nvtopPackages.full # (h)top like task monitor for AMD, Adreno, Intel and NVIDIA GPUs
     openvpn # Robust and highly flexible tunneling application
     pear-desktop # Electron wrapper around YouTube Music
-    sops # Simple and flexible tool for managing secrets
     speedtest-rs # Command line internet speedtest tool written in rust
     thunderbird # full-featured e-mail client
     vlc # Cross-platform media player and streaming server

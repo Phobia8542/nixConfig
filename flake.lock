@@ -20,19 +20,11 @@
         ]
       },
       "locked": {
-<<<<<<< HEAD
         "lastModified": 1778620495,
         "narHash": "sha256-Gu7UhWjwKCgSiVC3Qz/Rc7cYi9DNuDTBxYzg3kfLvfM=",
         "owner": "hyprwm",
         "repo": "aquamarine",
         "rev": "be35f75ac305f430f5f9d89b5f5a4af59ca7567e",
-=======
-        "lastModified": 1776876344,
-        "narHash": "sha256-Ubqb/agkuMJK+k19gjQgHux/eOYRc1sRGoOZOho8+VY=",
-        "owner": "hyprwm",
-        "repo": "aquamarine",
-        "rev": "648a13d0ee1e03a843b3e145b8ece15393058701",
->>>>>>> parent of 73ed15c (Updated neovim config (home-manager) to remove warning message)
         "type": "github"
       },
       "original": {
@@ -253,19 +245,11 @@
         "zon2nix": "zon2nix"
       },
       "locked": {
-<<<<<<< HEAD
-        "lastModified": 1779223014,
-        "narHash": "sha256-Q8B2Pw7WrMGrs2c/XFNN8ZzcIdPOzVYPl31hfhgPONI=",
+        "lastModified": 1779465911,
+        "narHash": "sha256-Yf6GbJg+FjHWbSSGb+UZ1xn/jhCQT/d9s3+K8wBmGQg=",
         "owner": "ghostty-org",
         "repo": "ghostty",
-        "rev": "9bcb30aa119b20833d74d4e32104dafe20bd8203",
-=======
-        "lastModified": 1777930651,
-        "narHash": "sha256-Z91Jvgukqh0m8kkfSRZEwN5eucizmbOzW1T39MVTXcg=",
-        "owner": "ghostty-org",
-        "repo": "ghostty",
-        "rev": "563b085a4d623995663b320818b6088ba0f2588f",
->>>>>>> parent of 73ed15c (Updated neovim config (home-manager) to remove warning message)
+        "rev": "3e3705b93233480f18274620f5e57c1c7021bf85",
         "type": "github"
       },
       "original": {
@@ -341,19 +325,11 @@
         ]
       },
       "locked": {
-<<<<<<< HEAD
-        "lastModified": 1779213149,
-        "narHash": "sha256-Cf+p/T4Z3n9Sw0TiR3kQaIwQI+/hfvLJcoTzeq6yS3E=",
+        "lastModified": 1779336838,
+        "narHash": "sha256-n1+l78hJRABp4cQHKeD0BVByT0vZLPqd09Tvoq8Q+d8=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "bd868f769a69d3b6091a1da68a75cb83a181033c",
-=======
-        "lastModified": 1777913624,
-        "narHash": "sha256-4MwfrGuqjsnEORQbM3cmkmG/9cWhDV63dTDguDj4FXw=",
-        "owner": "nix-community",
-        "repo": "home-manager",
-        "rev": "a89686d115e970e200eb2caa7603f3673050e00c",
->>>>>>> parent of 73ed15c (Updated neovim config (home-manager) to remove warning message)
+        "rev": "928d72376949e222ea4f07b44828a55b0136422e",
         "type": "github"
       },
       "original": {
@@ -469,19 +445,11 @@
         "xdph": "xdph"
       },
       "locked": {
-<<<<<<< HEAD
-        "lastModified": 1779190425,
-        "narHash": "sha256-C0hPhLeo3ztBXYSnpYarYjw6HDvlgZRnNyFfG5PoaVI=",
+        "lastModified": 1779474675,
+        "narHash": "sha256-KlrsvRSro0LdEtjIPEXrp0xxcsJ4LX54VdGkoyBxYhU=",
         "owner": "hyprwm",
         "repo": "Hyprland",
-        "rev": "203a121537d0868bd4d8258b58861ca970483157",
-=======
-        "lastModified": 1777910456,
-        "narHash": "sha256-YXQ5bhn5mklMsOuVqze3QBqqL+8zsUum24Yx1K2Rb+w=",
-        "owner": "hyprwm",
-        "repo": "Hyprland",
-        "rev": "eff3bfe261e90b8950b59379ca7815f735a7aab6",
->>>>>>> parent of 73ed15c (Updated neovim config (home-manager) to remove warning message)
+        "rev": "040535def009de838134d2ab7b9bc5c905c3c286",
         "type": "github"
       },
       "original": {
@@ -577,11 +545,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1776426736,
-        "narHash": "sha256-rl7i4aY+9p8LysJp7o8uRWahCkpFznCgGHXszlTw7b0=",
+        "lastModified": 1777320127,
+        "narHash": "sha256-Qu+Wf2Bp5qUjyn2YpZNq8a7JyzTGowhT1knrwE38a9U=",
         "owner": "hyprwm",
         "repo": "hyprlang",
-        "rev": "7833ff33b2e82d3406337b5dcf0d1cec595d83e9",
+        "rev": "090117506ddc3d7f26e650ff344d378c2ec329cc",
         "type": "github"
       },
       "original": {
@@ -804,11 +772,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1777148232,
-        "narHash": "sha256-Uv0WZLhu89SafuSOmYDA7akrPt4wBRmsa1ucasO5aXg=",
+        "lastModified": 1777159683,
+        "narHash": "sha256-Jxixw6wZphUp+nHYxOKUYSckL17QMBx2d5Zp0rJHr1g=",
         "owner": "hyprwm",
         "repo": "hyprwayland-scanner",
-        "rev": "fec9cf1abcc1011e46f0a0986f46bf93c6bf8b92",
+        "rev": "b8632713a6beaf28b56f2a7b0ab2fb7088dbb404",
         "type": "github"
       },
       "original": {
@@ -858,19 +826,11 @@
         ]
       },
       "locked": {
-<<<<<<< HEAD
         "lastModified": 1778410714,
         "narHash": "sha256-o6RzFj4nJXaPRY7EM01siuCQeT41RfwwmcmFQqwFJJg=",
         "owner": "hyprwm",
         "repo": "hyprwire",
         "rev": "85148a8e612808cf5ddb25d0b3c5840f3498a7dc",
-=======
-        "lastModified": 1776728575,
-        "narHash": "sha256-z9eGphrArEBpl1O/GCH0wlY6z4K9vA6yWh2gAS6qytU=",
-        "owner": "hyprwm",
-        "repo": "hyprwire",
-        "rev": "f3a80888783702a39691b684d099e16b83ed4702",
->>>>>>> parent of 73ed15c (Updated neovim config (home-manager) to remove warning message)
         "type": "github"
       },
       "original": {
@@ -939,40 +899,16 @@
     },
     "nixpkgs_3": {
       "locked": {
-<<<<<<< HEAD
         "lastModified": 1778869304,
         "narHash": "sha256-30sZNZoA1cqF5JNO9fVX+wgiQYjB7HJqqJ4ztCDeBZE=",
         "owner": "nixos",
         "repo": "nixpkgs",
         "rev": "d233902339c02a9c334e7e593de68855ad26c4cb",
-=======
-        "lastModified": 1777578337,
-        "narHash": "sha256-Ad49moKWeXtKBJNy2ebiTQUEgdLyvGmTeykAQ9xM+Z4=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "15f4ee454b1dce334612fa6843b3e05cf546efab",
->>>>>>> parent of 73ed15c (Updated neovim config (home-manager) to remove warning message)
         "type": "github"
       },
       "original": {
         "owner": "nixos",
         "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "nixpkgs_4": {
-      "locked": {
-        "lastModified": 1775888245,
-        "narHash": "sha256-nwASzrRDD1JBEu/o8ekKYEXm/oJW6EMCzCRdrwcLe90=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "13043924aaa7375ce482ebe2494338e058282925",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -1032,27 +968,8 @@
         "hyprland": "hyprland",
         "hyprpaper": "hyprpaper",
         "nixpkgs": "nixpkgs_3",
-        "sops": "sops",
         "stylix": "stylix",
         "waybar": "waybar"
-      }
-    },
-    "sops": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_4"
-      },
-      "locked": {
-        "lastModified": 1777944972,
-        "narHash": "sha256-VfGRo1qTBKOe3s2gOv8LSoA6Fk19PvBlwQ1ECN0Evn8=",
-        "owner": "Mic92",
-        "repo": "sops-nix",
-        "rev": "c591bf665727040c6cc5cb409079acb22dcce33c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Mic92",
-        "repo": "sops-nix",
-        "type": "github"
       }
     },
     "stylix": {
@@ -1075,11 +992,11 @@
         "tinted-zed": "tinted-zed"
       },
       "locked": {
-        "lastModified": 1778776709,
-        "narHash": "sha256-YhnEcpiY6+l3RFA+cPmdTaeODGvNRuqE8B7VBjPVIxo=",
+        "lastModified": 1779378391,
+        "narHash": "sha256-IsDb9erotvx9npI94UDosvMeYQK17p7/vmU2v9batrY=",
         "owner": "danth",
         "repo": "stylix",
-        "rev": "e8ea85b4f7dddda9603e0f1ac86cd92cee3b2819",
+        "rev": "c1456cc4ba3c9485e7b4158c909eeca5a752cd59",
         "type": "github"
       },
       "original": {
@@ -1262,19 +1179,11 @@
         ]
       },
       "locked": {
-<<<<<<< HEAD
         "lastModified": 1778265244,
         "narHash": "sha256-8jlPtGSsv/CQY6tVVyLF4Jjd0gnS+Zbn9yk/V13A9nM=",
         "owner": "hyprwm",
         "repo": "xdg-desktop-portal-hyprland",
         "rev": "813ea5ca9a1702a9a2d1f5836bc00172ef698968",
-=======
-        "lastModified": 1777035886,
-        "narHash": "sha256-m1TNuBoSXUBSKhD9UVMkU90M0wFTPTfvIOOltO8IM8A=",
-        "owner": "hyprwm",
-        "repo": "xdg-desktop-portal-hyprland",
-        "rev": "ecfcdcc781f48821d83e1e2a0e30d7beca0eeb5e",
->>>>>>> parent of 73ed15c (Updated neovim config (home-manager) to remove warning message)
         "type": "github"
       },
       "original": {

@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
 
+    age # Modern encryption tool with small explicit keys 
     bc # GNU software calculator (used in the terminal)
     cron # Daemon for running commands at specific times
     curl # Command line tool for transferring files with URL syntax
