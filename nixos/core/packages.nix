@@ -2,7 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
 
-    bitwarden-desktop # Secure and free password manager for all of your devices
+    # bitwarden-desktop # Secure and free password manager for all of your devices
     # bluez # Official Linux Bluetooth protocol stack
     # bluez-tools # Set of tools to manage bluetooth devices for linux (For CLi use)
     kdePackages.drkonqi # Crash handler for KDE software

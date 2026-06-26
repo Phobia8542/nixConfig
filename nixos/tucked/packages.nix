@@ -42,6 +42,7 @@
   # whatsapp-electron # Electron wrapper around Whatsapp
   # youtube-tui # Aesthetically pleasing YouTube TUI
   # zoxide # Fast cd command that learns your habits
+  zoom-us # Video conferencing application
 
   ## IPHONE packages
 

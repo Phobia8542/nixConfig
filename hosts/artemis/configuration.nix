@@ -10,7 +10,7 @@
     ../../nixos/gaming
     ../../nixos/nvidia
     ../../nixos/AI
-    ../../nixos/AI/imageGen/cuda.nix
+    # ../../nixos/AI/imageGen/cuda.nix
     ../../nixos/AI/ollama/cuda.nix
     ../../nixos/pentest
     ../../nixos/powerUser
