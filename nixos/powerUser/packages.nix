@@ -2,7 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
 
-    age # Modern encryption tool with small explicit keys 
+    age # Modern encryption tool with small explicit keys
     bc # GNU software calculator (used in the terminal)
     cron # Daemon for running commands at specific times
     curl # Command line tool for transferring files with URL syntax
@@ -12,14 +12,17 @@
     fastfetch # Feature-rich & performance oriented neofetch (information tool)
     flameshot # Powerful yet simple to use screenshot software
     fluffychat # Chat with your friends (matrix client)
-    gh # GitHub CLi tool 
-    git # Distributed version control system 
+    gh # GitHub CLi tool
+    git # Distributed version control system
     glances # Cross-platform curses-based monitoring tool
     gparted # Graphical disk partitioning tool
     kdePackages.filelight # Quickly visualize your disk space usage
     kdePackages.partitionmanager # Manage the disk devices, partitions, and file systems on your computer:wallpaper
+    librewolf # Fork of Firefox, focused on privacy, security and freedom
     neovide # Simple, no-nonsense, cross-platform graphical user interface for Neovim
     networkmanager-openvpn # NetworkManager's OpenVPN plugin
+    nil # Yet another language server for Nix
+    nixd # Nix language server, based on nix libraries
     # openclaw # Self-hosted, open-source AI assistant/agent
     proton-vpn # Proton VPN GTK app for linux
     tealdeer # Very fast implementation of tldr in Rust
@@ -32,4 +35,3 @@
   ];
 
 }
-

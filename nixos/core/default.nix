@@ -13,6 +13,7 @@
     ./packages.nix
     ./security.nix
     ./services.nix
+    ./stable.nix
     ./timezone.nix
     ./user.nix
     ./zram.nix

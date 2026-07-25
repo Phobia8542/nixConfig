@@ -6,6 +6,7 @@
     ./hardware-configuration.nix
     ./local.nix
     ./nuphy.nix
+    # ./pihole.nix
     ../../nixos/core
     ../../nixos/content
     ../../nixos/gaming

@@ -13,14 +13,10 @@
     cava # Console-based Audio Visualizer for alsa
     cliphist # Wayland clipboard manager
     feh # Lightweight image viewer
-    firefox # Web browser
     # hyprpicker # Blazing fast wayland wallpaper utility
     htop # Interactive process viewer
     kitty # Fast, feature-rich, GPU based terminal emulator
-    librewolf # Fork of Firefox, focused on privacy, security and freedom
     # light # GNU/Linux application to control backlights
-    nushell # Modern shell written in Rust
-    obsidian # Powerful knowledge base that works on top of a local folder of plain text Markdown files
     pavucontrol # PulseAudio Volume Control
     playerctl # Command-line utility and library for controlling media players that implement
     starship # Minimal, blazing fast, and extremely customizable prompt for any shell

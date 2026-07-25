@@ -5,11 +5,15 @@
     # bitwarden-desktop # Secure and free password manager for all of your devices
     # bluez # Official Linux Bluetooth protocol stack
     # bluez-tools # Set of tools to manage bluetooth devices for linux (For CLi use)
+    fast # Internet speed test in your terminal
+    firefox # Web browser
     kdePackages.drkonqi # Crash handler for KDE software
     kdePackages.kcalc # Scientific calculator
     kdePackages.xdg-desktop-portal-kde # xdg-desktop-portal backend for kde
     killall
+    nushell # Modern shell written in Rust
     nvtopPackages.full # (h)top like task monitor for AMD, Adreno, Intel and NVIDIA GPUs
+    obsidian # Powerful knowledge base that works on top of a local folder of plain text Markdown files
     openvpn # Robust and highly flexible tunneling application
     pear-desktop # Electron wrapper around YouTube Music
     speedtest-rs # Command line internet speedtest tool written in rust

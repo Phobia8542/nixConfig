@@ -5,7 +5,7 @@
     defaultUserShell = pkgs.nushell;
     users.${user} = {
       isNormalUser = true;
-      extraGroups = [ "wheel" "networkmanager" "docker" "gamemode" "bluetooth" ];
+      extraGroups = [ "wheel" "networkmanager" "docker" "gamemode" "bluetooth" "input" ];
     };
   };
 

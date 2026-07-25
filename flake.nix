@@ -3,29 +3,31 @@
 
   inputs = {
 
+    # Unstable packages
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
+    # Stable packages
+    nixos-stable.url = "github:nixos/nixpkgs?ref=nixos-26.05";
+
+    # Home manager, Nix-based user environment configurator
     home-manager = {
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
     # Hyprland, the modern compositor for wayland
-    hyprland = {
-      url = "github:hyprwm/Hyprland";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    # hyprland = {
+      # url = "github:hyprwm/Hyprland";
+      # inputs.nixpkgs.follows = "nixpkgs";
+      # };
 
     # Hyprpaper, wallpaper manager for hyprland
-    hyprpaper.url = "github:hyprwm/hyprpaper";
+    # hyprpaper.url = "github:hyprwm/hyprpaper";
 
     # waybar, a customizable wayland bar
-    waybar.url = "github:Alexays/Waybar";
-    waybar.inputs.nixpkgs.follows = "nixpkgs";
+    # waybar.url = "github:Alexays/Waybar";
+    # waybar.inputs.nixpkgs.follows = "nixpkgs";
 
-    # ghostty, Cross-platform terminal emulator
-    ghostty.url = "github:/ghostty-org/ghostty";
- 
     stylix = {
       url = "github:danth/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -36,7 +38,7 @@
 
   };
 
-  outputs = { self, nixpkgs, home-manager, hyprland, hyprpaper, waybar, stylix, ghostty, ... }@inputs: let
+  outputs = { self, nixpkgs, nixos-stable, home-manager, stylix, ... }@inputs: let
     system = "x86_64-linux";
     homeStateVersion = "24.11";
     user = "phobes";
@@ -51,11 +53,12 @@
     makeSystem = { hostname, stateVersion }: nixpkgs.lib.nixosSystem {
       system = system;
       specialArgs = {
-        inherit inputs stateVersion hostname user;
+        inherit inputs stateVersion hostname user self;
       };
 
       modules = [
         ./hosts/${hostname}/configuration.nix
+        ./nixos/core/stable.nix
         # sops.nixosModules.sops
       ];
     };
