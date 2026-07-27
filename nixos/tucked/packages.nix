@@ -28,6 +28,8 @@
   # mako # Lightweight Wayland notification daemon
   mediainfo # Supplies technical and tag information about a video or audio file
   mpv # General-purpose media player
+  # nyaa # TUI tool for browser and downloading torrent
+  piper # Neural text-to-speech engine
   # python313Packages.shodan # Python library and command-line utility for Shodan
   radiotray-ng # An internet radio player for linux
   # ranger # File manager with minimalistic curses interface
@@ -36,6 +38,7 @@
   # shortwave # Find and listen to internet radio stations
   # snort # Network intrusion prevention and detection system (IDS/IPS)
   # swww # Effecient animated wallpaper daemon for wayland, controlled at runtime
+  transmission_4-qt # Fast, easy and free BitTorrent client
   # upwork # Online freelancing platform desktop applicatino for time tracking
   vencord # Cutest Discord client mod (Allows for customization of discord clients)
   # wasistlost # Unofficial WhatsApp desktop application (Later replaced by whatsapp-electron)

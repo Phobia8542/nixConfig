@@ -16,17 +16,17 @@
     };
 
     # Hyprland, the modern compositor for wayland
-    # hyprland = {
-      # url = "github:hyprwm/Hyprland";
-      # inputs.nixpkgs.follows = "nixpkgs";
-      # };
+    hyprland = {
+      url = "github:hyprwm/Hyprland";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Hyprpaper, wallpaper manager for hyprland
-    # hyprpaper.url = "github:hyprwm/hyprpaper";
+    hyprpaper.url = "github:hyprwm/hyprpaper";
 
     # waybar, a customizable wayland bar
-    # waybar.url = "github:Alexays/Waybar";
-    # waybar.inputs.nixpkgs.follows = "nixpkgs";
+    waybar.url = "github:Alexays/Waybar";
+    waybar.inputs.nixpkgs.follows = "nixpkgs";
 
     stylix = {
       url = "github:danth/stylix";
@@ -38,7 +38,7 @@
 
   };
 
-  outputs = { self, nixpkgs, nixos-stable, home-manager, stylix, ... }@inputs: let
+  outputs = { self, nixpkgs, nixos-stable, home-manager, hyprland, hyprpaper, waybar, stylix, ... }@inputs: let
     system = "x86_64-linux";
     homeStateVersion = "24.11";
     user = "phobes";

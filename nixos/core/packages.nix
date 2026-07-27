@@ -7,6 +7,7 @@
     # bluez-tools # Set of tools to manage bluetooth devices for linux (For CLi use)
     fast # Internet speed test in your terminal
     firefox # Web browser
+    flatpak # Linux application sandboxing and distribution framework
     kdePackages.drkonqi # Crash handler for KDE software
     kdePackages.kcalc # Scientific calculator
     kdePackages.xdg-desktop-portal-kde # xdg-desktop-portal backend for kde
@@ -20,6 +21,7 @@
     thunderbird # full-featured e-mail client
     vlc # Cross-platform media player and streaming server
     wget # Tool for retrieving files using HTTP, HTTPS, and FTP
+    piper # Neural text-to-speech engine
     wl-clipboard # Command-line copy/paste utilities for Wayland
     xdg-desktop-portal-gtk # Desktop integration portals for sandboxed apps
     # xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland (Enables screen sharing)

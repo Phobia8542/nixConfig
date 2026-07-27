@@ -1,4 +1,4 @@
-{
+{ lib, ... }: {
   programs.hyprlock = {
     enable = true;
     settings = {
@@ -9,19 +9,8 @@
         no_fade_in = false;
       };
 
-      label = {
-        text = "$TIME";
-        font_size = 96;
-        font_family = "JetBrains Mono";
-        color = "rgba(235, 219, 178, 1.0)";
-        position = "0, 600";
-        halign = "center";
-        walign = "center";
-
-        shadow_passes = 1;
-      };
-
-      background = [
+      # Force override for background to resolve Stylix conflict
+      background = lib.mkForce [
         {
           path = "screenshot";
           blur_passes = 3;
@@ -29,7 +18,19 @@
         }
       ];
 
-      input-field = [
+      label = {
+        text = "$TIME";
+        font_size = 96;
+        font_family = "JetBrains Mono";
+        color = "rgba(235, 219, 178, 1.0)";
+        position = "0, 600";
+        halign = "center";
+        valign = "center";
+        shadow_passes = 1;
+      };
+
+      # Use mkForce here to resolve the "defined multiple times" error for input-field
+      input-field = lib.mkForce [
         {
           size = "200, 50";
           position = "0, -80";

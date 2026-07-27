@@ -14,12 +14,12 @@
     ./zed.nix
     ./zsh.nix
 
-    # ./hyprland
-    # ./swaync
+    ./hyprland
+    ./swaync
     # ./lazygit.nix
     # ./qt.nix
-    # ./stylix.nix
-    # ./waybar
-    # ./wofi
+    ./stylix.nix
+    ./waybar
+    ./wofi
   ];
 }

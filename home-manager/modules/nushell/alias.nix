@@ -41,6 +41,7 @@
 
     # bSf = "sudo nixos-rebuild build --flake"; # Build current flake (will not effect reboot) - MUST be followed by "./#hostname --show-trace"
     # cHf = "cp ~/.config/home-manager/home.nix ."; # Copy Home-manager config file to current working directory
+    cHm = "rm -rf ~/.config/gtk-3.0 ~/.config/gtk-4.0 ~/.Xresources ~/.gtkrc-2.0"; # Clean Home-Manager before updating
     dF = "cd ~/nixConfig/"; # Move directly to dotfiles
     dFc = "cd ~/nixConfig/nixos/core"; # Move directly to system dotfiles
     dFh = "cd ~/nixConfig/home-manager/modules"; # Move directly to home-manager modules
@@ -54,10 +55,12 @@
     nFu = "nix flake update"; # Update flake (package manager update)
     nS = "nh search"; # Search for nix packages
     tH = "nh home build"; # Test Home-manager configuration
-    tO = "nix-shell -p"; # Try out packages 
+    tO = "nix-shell -p"; # Try out packages
     tSf = "nh os build"; # Test Build using current flake
     uH = "nh home switch"; # Update Home-manager using nh
-    uSf = "nh os switch --verbose"; # Update & upgrade System flake using nh  
+    uHf = "rm -rf ~/.config/gtk-3.0 ~/.config/gtk-4.0 ~/.Xresources ~/.gtkrc-2.0; nh home switch"; # Forced Update Home-manager (Cleans GTK)
+    uSf = "nh os switch --verbose"; # Update & upgrade System flake using nh
+    say = "echo $BASH_SAY | piper --model ~/piper/en_US-lessac-medium.onnx --output_raw | aplay"; # Simple TTS command
 
     ## Tmux commands
 

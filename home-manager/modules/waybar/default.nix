@@ -1,15 +1,14 @@
 {
   programs.waybar = {
     enable = true;
-    style = ./style.css;
     settings = {
       mainBar = {
         layer = "top";
         position = "top";
         height = 35;
-        modules-left = ["hyprland/workspaces"];
-        modules-center = ["hyprland/window"];
-        modules-right = ["cpu" "memory" "pulseaudio" "battery" "clock" "tray"];
+        modules-left = ["custom/launcher"];
+        modules-center = ["hyprland/workspaces" "hyprland/window"];
+        modules-right = ["network" "cpu" "memory" "pulseaudio" "battery" "clock" "tray"];
         "hyprland/workspaces" = {
           disable-scroll = false;
           show-special = true;
@@ -35,14 +34,14 @@
 
         "cpu" = {
          interval = 10;
-         format = "CPU: {icon} {usage}%"; 
-         format-alt = "LOAD: {load}% AVG: {avg_frequency}%"; 
+         format = "CPU: {icon} {usage}%";
+         format-alt = "LOAD: {load}% AVG: {avg_frequency}%";
         };
-        
+
         "memory" = {
          interval = 10;
-         format = "RAM: {icon} {percentage}%"; 
-         format-alt = "USED: {used:0.1f}GiB/{total:0.1f}GiB ({percentage}%) SWAP: {swapUsed:0.1f}GiB/{swapTotal:0.1f}GiB ({swapPercentage}%)"; 
+         format = "RAM: {icon} {percentage}%";
+         format-alt = "USED: {used:0.1f}GiB/{total:0.1f}GiB ({percentage}%) SWAP: {swapUsed:0.1f}GiB/{swapTotal:0.1f}GiB ({swapPercentage}%)";
         };
 
         "pulseaudio" = {
@@ -79,9 +78,23 @@
           tooltip-format = "<tt><small>{calendar}</small></tt>";
         };
 
+        "network" = {
+          format-wifi = " {essid}";
+          format-ethernet = "󰈀 {ipaddr}";
+          format-disconnected = "󰖪 Disconnected";
+          tooltip-format = "Interface: {ifname}\nIP: {ipaddr}";
+          on-click-right = "alacritty -e nmtui";
+        };
+
         "tray" = {
           icon-size = 16;
           spacing = 2;
+        };
+
+        "custom/launcher" = {
+          format = "";
+          on-click = "wofi --show drun";
+          tooltip = false;
         };
       };
     };

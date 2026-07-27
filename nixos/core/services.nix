@@ -1,9 +1,9 @@
 {
   services = {
     blueman.enable = true; # Enable bluetooth
-    cron.enable = true; # Set jobs with "systemCronJobs [];"
+    cron.enable = true; # Set jobs with "systemCronBjobs [];"
     fail2ban.enable = true; # scans log files for repeated failing login attempts and bans IP addresses
-    lact.enable = true; # Enable LACT (overclocking tool)
+    # lact.enable = true; # Enable LACT (overclocking tool)
     openssh.enable = true; # enable OpenSSH daemon
     printing.enable = true; # Enable CUPS to print documents
     usbmuxd.enable = true; # Socket daemon to multiplex connections from and to iOS devices
