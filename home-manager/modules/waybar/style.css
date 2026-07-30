@@ -1,0 +1,78 @@
+/* Waybar Dracula Theme */
+* {
+    font-family: "JetBrainsMono Nerd Font", "DejaVu Sans Mono", sans-serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background-color: rgba(40, 42, 54, 0.8);
+    border-bottom: 2px solid #bd93c7;
+    transition: all 0.3s ease;
+}
+
+#workspaces {
+    background-color: transparent;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+
+#workspaces button {
+    color: #f8f8f2;
+    background-color: transparent;
+    padding: 0 8px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.focused {
+    color: #bd93c7;
+    background-color: #44475a;
+    border-bottom: 2px solid #bd93c7;
+}
+
+#workspaces button:hover {
+    background-color: rgba(68, 71, 90, 0.5);
+    color: #8be9fd;
+}
+
+#window, #cpu, #memory, #pulseaudio, #network, #battery, #clock, #tray, #custom-launcher {
+    background-color: #44475a;
+    color: #8be9fd;
+    margin: 4px 3px;
+    padding: 0 10px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+#window {
+    background-color: transparent;
+    color: #8be9fd;
+}
+
+#cpu:hover, #memory:hover, #pulseaudio:hover, #network:hover, #battery:hover, #clock:hover, #custom-launcher:hover {
+    background-color: #6272a4;
+    color: #bd93c7;
+    box-shadow: 0 0 5px #bd93c7;
+}
+
+#custom-launcher {
+    color: #bd93c7;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#custom-launcher:hover {
+    background-color: #8be9fd;
+    color: #282a36;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#tray {
+    background-color: transparent;
+}

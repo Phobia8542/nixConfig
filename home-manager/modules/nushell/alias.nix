@@ -60,7 +60,6 @@
     uH = "nh home switch"; # Update Home-manager using nh
     uHf = "rm -rf ~/.config/gtk-3.0 ~/.config/gtk-4.0 ~/.Xresources ~/.gtkrc-2.0; nh home switch"; # Forced Update Home-manager (Cleans GTK)
     uSf = "nh os switch --verbose"; # Update & upgrade System flake using nh
-    say = "echo $BASH_SAY | piper --model ~/piper/en_US-lessac-medium.onnx --output_raw | aplay"; # Simple TTS command
 
     ## Tmux commands
 

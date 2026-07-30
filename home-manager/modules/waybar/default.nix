@@ -6,8 +6,8 @@
         layer = "top";
         position = "top";
         height = 35;
-        modules-left = ["custom/launcher"];
-        modules-center = ["hyprland/workspaces" "hyprland/window"];
+        modules-left = ["custom/launcher" "hyprland/workspaces"];
+        modules-center = ["hyprland/window"];
         modules-right = ["network" "cpu" "memory" "pulseaudio" "battery" "clock" "tray"];
         "hyprland/workspaces" = {
           disable-scroll = false;
@@ -26,55 +26,46 @@
             "9" = "9";
             "magic" = "M";
           };
-
-          # persistent-workspaces = {
-            # "*" = 9;
-          # };
         };
 
         "cpu" = {
          interval = 10;
-         format = "CPU: {icon} {usage}%";
-         format-alt = "LOAD: {load}% AVG: {avg_frequency}%";
+         format = "󰻠 {usage}%";
+         format-alt = "LOAD: {load}%";
         };
 
         "memory" = {
          interval = 10;
-         format = "RAM: {icon} {percentage}%";
-         format-alt = "USED: {used:0.1f}GiB/{total:0.1f}GiB ({percentage}%) SWAP: {swapUsed:0.1f}GiB/{swapTotal:0.1f}GiB ({swapPercentage}%)";
+         format = "󰍛 {percentage}%";
+         format-alt = "USED: {used:0.1f}GiB";
         };
 
         "pulseaudio" = {
           format = "{icon} {volume}%";
-          format-bluetooth = "{icon} {volume}%";
-          format-muted = "🔇";
+          format-bluetooth = "{icon}  {volume}%";
+          format-muted = "S muted";
           format-icons = {
             "headphones" = "🎧";
-            "handsfree" = "🔊";
-            "headset" = "🔊";
-            "phone" = "📱";
-            "portable" = "📱";
-            "car" = "🚗";
-            "default" = ["🔈" "🔊"];
+            "headset" = "";
+            "default" = "🔈";
           };
           on-click = "pavucontrol";
-          on-click-right = "pactl set-sink-mute @DEFAULT_SINK@ toggle";
         };
 
         "battery" = {
           states = {
             warning = 30;
-            critical = 1;
+            critical = 15;
           };
           format = "{icon} {capacity}%";
-          format-charging = "⚡ {capacity}%";
-          format-alt = "{time} {icon}";
-          format-icons = ["🔋" "🔋" "🔋" "🔋" "🔋"];
+          format-charging = "󱐋 {capacity}%";
+          format-plugged = " {capacity}%";
+          format-icons = ["🔋"];
         };
 
         "clock" = {
-          format = "{:%d.%m.%Y - %H:%M}";
-          format-alt = "{:%A, %B %d at %R}";
+          format = " {:%H:%M}";
+          format-alt = "��C {:%A, %B %d}";
           tooltip-format = "<tt><small>{calendar}</small></tt>";
         };
 
@@ -88,7 +79,7 @@
 
         "tray" = {
           icon-size = 16;
-          spacing = 2;
+          spacing = 10;
         };
 
         "custom/launcher" = {
@@ -98,5 +89,6 @@
         };
       };
     };
+    style = ./style.css;
   };
 }

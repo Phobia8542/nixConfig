@@ -12,7 +12,7 @@
       hyprland.enable = true;
       hyprlock.enable = true;
       neovim.enable = true;
-      waybar.enable = true;
+      waybar.enable = false;
       wofi.enable = true;
       tmux.enable = true;
       btop.enable = true;
