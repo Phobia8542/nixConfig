@@ -33,12 +33,18 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # sops, Simple and flexible tool for managing secrets
-    # sops.url = "github:Mic92/sops-nix";
+    # Efficient animated wallpaper daemon for wayland
+    # awww.url = "git+https://codeberg.org/LGFae/awww";
+
+    # Sops, Simple and flexible tool for managing secrets
+    sops.url = "github:Mic92/sops-nix";
+
+    # Hermes Agent, Open-source AI agent with Persistent Memory
+    hermes-agent.url = "github:NousResearch/hermes-agent";
 
   };
 
-  outputs = { self, nixpkgs, nixos-stable, home-manager, hyprland, hyprpaper, waybar, stylix, ... }@inputs: let
+  outputs = { self, nixpkgs, nixos-stable, home-manager, hyprland, hyprpaper, waybar, stylix, sops, hermes-agent, ... }@inputs: let
     system = "x86_64-linux";
     homeStateVersion = "24.11";
     user = "phobes";
@@ -59,7 +65,8 @@
       modules = [
         ./hosts/${hostname}/configuration.nix
         ./nixos/core/stable.nix
-        # sops.nixosModules.sops
+        sops.nixosModules.sops
+        hermes-agent.nixosModules.default
       ];
     };
 

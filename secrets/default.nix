@@ -1,7 +1,6 @@
 {
   imports = [
-    ./searx.nix
+    # ./searx.nix
     ./sops.nix
   ];
 }
-

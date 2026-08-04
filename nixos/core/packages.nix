@@ -24,7 +24,7 @@
     piper # Neural text-to-speech engine
     wl-clipboard # Command-line copy/paste utilities for Wayland
     xdg-desktop-portal-gtk # Desktop integration portals for sandboxed apps
-    # xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland (Enables screen sharing)
+    xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland (Enables screen sharing)
     xwayland # X server for interfacing X1 apps with Wayland protocol
     zram-generator # Systemd unit generator for zram devices
 

@@ -36,7 +36,7 @@
 
         "memory" = {
          interval = 10;
-         format = "󰍛 {percentage}%";
+         format = " {percentage}%";
          format-alt = "USED: {used:0.1f}GiB";
         };
 

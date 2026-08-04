@@ -1,7 +1,12 @@
 { pkgs, ... }:
-
 {
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "JetBrainsMono" "FontAwesome" ]; })
+    # Standard high-quality fonts
+    noto-fonts
+    roboto
+
+    # Extra options
+    # fira-code
+    # iosevka
   ];
 }

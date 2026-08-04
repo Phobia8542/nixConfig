@@ -4,6 +4,7 @@
   imports = [
     ./amd-config.nix
     ./hardware-configuration.nix
+    # ./hermes.nix
     ./local.nix
     ./nuphy.nix
     # ./pihole.nix

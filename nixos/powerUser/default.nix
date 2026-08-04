@@ -1,6 +1,7 @@
 {
   imports = [
-    # ./fonts.nix
+    # ./awww.nix
+    ./fonts.nix
     ./packages.nix
     ./virtualisation.nix
   ];

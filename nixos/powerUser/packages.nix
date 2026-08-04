@@ -23,11 +23,12 @@
     networkmanager-openvpn # NetworkManager's OpenVPN plugin
     nil # Yet another language server for Nix
     nixd # Nix language server, based on nix libraries
-    # openclaw # Self-hosted, open-source AI assistant/agent
     proton-vpn # Proton VPN GTK app for linux
+    sops # Simple and flexible tool for managing secrets
     tealdeer # Very fast implementation of tldr in Rust
     toipe # Yet another typing test, but crab flavoured
     unzip # Extraction utility for archives compressed in .zip format
+    uwsm # Universal Wayland Session Manager
     virtualbox # PC emulator
     wget # Tool for retrieving files using HTTP, HTTPS, and FTP
     zip # Compressor/archiver for creating and modifying zipfiles

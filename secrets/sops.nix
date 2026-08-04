@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{  inputs, ... }:
 
 {
   imports =
@@ -8,9 +8,9 @@
 
   sops = {
     # enable = true;
-    defaultSopsFile = ../../secrets/secrets.encrypted.age; 
+    defaultSopsFile = ../../secrets/secrets.encrypted.age;
     defaultSopsFormat = "yaml";
-    
+
     # Tell sops where to find the private key on the machine
     age.keyFile = "~/.config/sops/age.txt";
   };
@@ -18,6 +18,6 @@
   # sops.secrets.searx_key = {
     # This matches the variable name inside your encrypted file
     # but we are outputting it to a file the service can read
-    # key = "SEARXNG_SECRET_KEY"; 
+    # key = "SEARXNG_SECRET_KEY";
   # };
 }

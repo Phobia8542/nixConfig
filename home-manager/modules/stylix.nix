@@ -17,6 +17,8 @@
       tmux.enable = true;
       btop.enable = true;
     };
+
+  image = ../../papes/1662176820837131.png;
   };
 
   home.sessionVariables = {

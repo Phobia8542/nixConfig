@@ -58,7 +58,6 @@
     tO = "nix-shell -p"; # Try out packages
     tSf = "nh os build"; # Test Build using current flake
     uH = "nh home switch"; # Update Home-manager using nh
-    uHf = "rm -rf ~/.config/gtk-3.0 ~/.config/gtk-4.0 ~/.Xresources ~/.gtkrc-2.0; nh home switch"; # Forced Update Home-manager (Cleans GTK)
     uSf = "nh os switch --verbose"; # Update & upgrade System flake using nh
 
     ## Tmux commands

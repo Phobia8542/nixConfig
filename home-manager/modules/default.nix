@@ -17,7 +17,7 @@
     ./hyprland
     ./swaync
     # ./lazygit.nix
-    # ./qt.nix
+    ./qt.nix
     ./stylix.nix
     ./waybar
     ./wofi
