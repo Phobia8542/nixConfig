@@ -25,8 +25,6 @@
     dPa = "docker ps --all"; # List all running docker containers
     dS = "docker stop"; # Stop docker service (MUST name service)
     dSt = "docker stats"; # Display live stream of containers resource usage
-    mD = "docker stop miner"; # Miner Down
-    mU = "docker start miner"; # Miner Up
 
     ## Git commands
 
@@ -39,9 +37,6 @@
 
     ## NixOS commands
 
-    # bSf = "sudo nixos-rebuild build --flake"; # Build current flake (will not effect reboot) - MUST be followed by "./#hostname --show-trace"
-    # cHf = "cp ~/.config/home-manager/home.nix ."; # Copy Home-manager config file to current working directory
-    cHm = "rm -rf ~/.config/gtk-3.0 ~/.config/gtk-4.0 ~/.Xresources ~/.gtkrc-2.0"; # Clean Home-Manager before updating
     dF = "cd ~/nixConfig/"; # Move directly to dotfiles
     dFc = "cd ~/nixConfig/nixos/core"; # Move directly to system dotfiles
     dFh = "cd ~/nixConfig/home-manager/modules"; # Move directly to home-manager modules
@@ -58,6 +53,7 @@
     tO = "nix-shell -p"; # Try out packages
     tSf = "nh os build"; # Test Build using current flake
     uH = "nh home switch"; # Update Home-manager using nh
+    uHf = "rm -rf ~/.config/gtk-3.0 ~/.config/gtk-4.0 ~/.Xresources ~/.gtkrc-2.0 and nh home switch"; # Clear gtk settings before updating  Home-manager (must use "and" or ";" instead of "&&" for nushell)
     uSf = "nh os switch --verbose"; # Update & upgrade System flake using nh
 
     ## Tmux commands
@@ -72,6 +68,13 @@
     # cDf = "sudo cp -r ~/.dotfile ."; # Copy dotfile to current working directory
     eC = "sudo vi /etc/nixos/configuration.nix"; # Edit Config file
     # gL = "glances"; # Launch glances
+
+    ### Power profile settings (Super + B on KDE)
+
+    pPg = "powerprofilesctl get"; # Check power profile status
+    pPs = "powerprofilesctl set power-saver"; # Set to power-saver mode
+    pPb = "powerprofilesctl set balanced"; # Set to balanced mode
+    pPp = "powerprofilesctl set performance"; # Set to performance mode
 
   };
 }

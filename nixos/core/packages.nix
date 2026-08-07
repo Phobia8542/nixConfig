@@ -21,7 +21,7 @@
     thunderbird # full-featured e-mail client
     vlc # Cross-platform media player and streaming server
     wget # Tool for retrieving files using HTTP, HTTPS, and FTP
-    piper # Neural text-to-speech engine
+    piper-tts # Fast, local neural text to speech system
     wl-clipboard # Command-line copy/paste utilities for Wayland
     xdg-desktop-portal-gtk # Desktop integration portals for sandboxed apps
     xdg-desktop-portal-hyprland # xdg-desktop-portal backend for Hyprland (Enables screen sharing)
